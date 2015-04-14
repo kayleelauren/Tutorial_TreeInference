@@ -19,7 +19,7 @@ ___
 
 ###Building Phylogenetic Trees with FastTree
 
-![raxml](http://sco.h-its.org/exelixis/resource/download/oldPage/150.jpg)
+
 
 
 
@@ -28,6 +28,8 @@ ___
 
 ___
 ##Viewing Phylogenetic Trees
+
+![iTOL](http://itol.embl.de/img/head_fra.jpg)
 
 Interactive Tree of Life: http://itol.embl.de/
 
