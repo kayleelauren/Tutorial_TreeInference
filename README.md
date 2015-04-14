@@ -37,6 +37,7 @@ ___
 
 ![iTOL](http://itol.embl.de/img/head_fra.jpg)
 
+![iTOLexample](http://itol.embl.de/img/itol.jpg)
 
 
 iTOL Help Pages: http://itol.embl.de/help/help.shtml
