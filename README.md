@@ -29,7 +29,8 @@ ___
 ___
 ##Viewing Phylogenetic Trees
 
-**Seaview** 
+**Seaview** (http://doua.prabi.fr/software/seaview)
+
 ![SeaView](http://doua.prabi.fr/binaries/seaview-tree)
 
 **Interactive Tree of Life** (http://itol.embl.de/)
