@@ -29,9 +29,24 @@ ___
 ___
 ##Viewing Phylogenetic Trees
 
+**Seaview** 
+![SeaView](http://doua.prabi.fr/binaries/seaview-tree)
+
+**Interactive Tree of Life** (http://itol.embl.de/)
+
 ![iTOL](http://itol.embl.de/img/head_fra.jpg)
 
-Interactive Tree of Life: http://itol.embl.de/
+
+
+iTOL Help Pages: http://itol.embl.de/help/help.shtml
+
+Supported tree formats: 
+* Newick 
+* Nexus 
+* PhyloXML
+
+
+
 
 ___
 ##Comparison of RAxML and FastTree
