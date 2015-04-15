@@ -30,7 +30,17 @@ FastTree Install: http://www.microbesonline.org/fasttree/#Install
 
 
 ###Building Phylogenetic Trees with FastTree
-
+**Install on Proteus**
+    # Navigate inside the cloned repo
+    cd <path>/Tutorial_TreeInference/
+    # Should see the install file (FastTree.c)
+    ls -lap
+    # install single-thread version of FastTree by running the following
+    gcc -O3 -finline-functions -funroll-loops -Wall -o FastTree FastTree.c -lm
+    # if using a Mac and you have problems use the following command instead (remove #)
+    #gcc -DNO_SSE -O3 -finline-functions -funroll-loops -Wall -o FastTree FastTree.c -lm
+    # install multi-thread version to use multiple cores
+    gcc -DOPENMP -fopenmp -O3 -finline-functions -funroll-loops -Wall -o FastTreeMP FastTree.c -lm
 
 
 
