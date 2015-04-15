@@ -47,7 +47,23 @@ FastTree Install: http://www.microbesonline.org/fasttree/#Install
     # install multi-thread version to use multiple cores
     gcc -DOPENMP -fopenmp -O3 -finline-functions -funroll-loops -Wall -o FastTreeMP FastTree.c -lm
 
+**Commands**
 
+protein alignment command
+
+    ./fasttree alignment_file > tree_file
+
+nucleotide alignment command GTR+CAT
+
+    ./fasttree -nt -gtr alignment_file > tree_file
+
+nucleotide alignment command Jukes-Cantor+CAT
+
+    ./fasttree -nt alignment_file > tree_file
+
+-nt nucleotide alignment
+-gtr generalized time-reversible model (nucleotide alignments only)
+-quiet suppress progress indicator
 
 
 
