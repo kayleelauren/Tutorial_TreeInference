@@ -1,4 +1,4 @@
-#ECES690 Tutorial 2: Tree Inference
+#ECES690 Tutorial 2: Tree Inference - RAxML and FastTree
 ___
 
 NOTE: Background and supporting literature available in [LitReview](https://github.com/JacobRPrice/Tutorial_TreeInference/tree/master/LitReview) directory.
@@ -7,13 +7,25 @@ NOTE: Background and supporting literature available in [LitReview](https://gith
 
     git clone https://github.com/JacobRPrice/Tutorial_TreeInference.git
 ___
+
+
+___
 ##RAxML: Randomized Axelerated Maximum Likelyhood
+
+RAxML Homepage: http://sco.h-its.org/exelixis/web/software/raxml/index.html
+RAxML Install: **Already done on Proteus** 
+RAxML GitHub: https://github.com/stamatak/standard-RAxML
+
 ###RAxML Algorithm
 
 ###Building Phylogenetic Trees with RAxML
 
 ___
 ##FastTree
+
+FastTree Homepage: http://www.microbesonline.org/fasttree/
+FastTree Install: http://www.microbesonline.org/fasttree/#Install
+
 ###FastTree Algorithm
 
 
