@@ -96,3 +96,12 @@ Supported tree formats:
 ___
 ##Comparison of RAxML and FastTree
 
+Algorithms
+
+RAxML (Random Axelerated Maximum Likelihood)
+
+Default Algorithm: Rapid Hill Climbing
+
+The RAxML tree search algorithm uses the Lazy Subtree Rearrangement (LSR).
+
+FastTree
