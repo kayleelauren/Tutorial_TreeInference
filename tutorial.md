@@ -1,4 +1,4 @@
-#ECES690 Tutorial 2: Tree Inference - RAxML and FastTree
+#Tree Inference - RAxML and FastTree
 ___
 
 NOTE: Background and supporting literature available in [LitReview](https://github.com/JacobRPrice/Tutorial_TreeInference/tree/master/LitReview) directory.
@@ -8,26 +8,52 @@ NOTE: Background and supporting literature available in [LitReview](https://gith
     git clone https://github.com/JacobRPrice/Tutorial_TreeInference.git
 ___
 
+#Building Phylogenetic Trees
+
+WHY?
+
+HOW IS IT DONE? 
 
 ___
+
+COMMON METHODS
+
+
+
 ##RAxML: Randomized Axelerated Maximum Likelyhood
 
-RAxML Homepage: http://sco.h-its.org/exelixis/web/software/raxml/index.html
+RAxML Homepage: http://sco.h-its.org/exelixis/web/software/raxml/index.html  
+RAxML GitHub: https://github.com/stamatak/standard-RAxML  
 
-RAxML Install: **Already done on Proteus** 
 
-RAxML GitHub: https://github.com/stamatak/standard-RAxML
+##FastTree
+
+FastTree Homepage: http://www.microbesonline.org/fasttree/  
+FastTree Install: http://www.microbesonline.org/fasttree/#Install
+
+Navigate inside the cloned repo  
+    cd <path>/Tutorial_TreeInference/  
+Should see the install file (FastTree.c)  
+    ls -lap  
+install single-thread version of FastTree by running the following  
+    gcc -O3 -finline-functions -funroll-loops -Wall -o FastTree FastTree.c -lm  
+if using a Mac and you have problems use the following command instead (remove #)  
+    #gcc -DNO_SSE -O3 -finline-functions -funroll-loops -Wall -o FastTree FastTree.c -lm  
+install multi-thread version to use multiple cores  
+    gcc -DOPENMP -fopenmp -O3 -finline-functions -funroll-loops -Wall -o FastTreeMP FastTree.c -lm   
+
+
+
+
+___
+
 
 ###RAxML Algorithm
 
 ###Building Phylogenetic Trees with RAxML
 
 ___
-##FastTree
 
-FastTree Homepage: http://www.microbesonline.org/fasttree/
-
-FastTree Install: http://www.microbesonline.org/fasttree/#Install
 
 ###FastTree Algorithm
 
@@ -36,16 +62,7 @@ FastTree Install: http://www.microbesonline.org/fasttree/#Install
 
 **Install on Proteus**
 
-    # Navigate inside the cloned repo
-    cd <path>/Tutorial_TreeInference/
-    # Should see the install file (FastTree.c)
-    ls -lap
-    # install single-thread version of FastTree by running the following
-    gcc -O3 -finline-functions -funroll-loops -Wall -o FastTree FastTree.c -lm
-    # if using a Mac and you have problems use the following command instead (remove #)
-    #gcc -DNO_SSE -O3 -finline-functions -funroll-loops -Wall -o FastTree FastTree.c -lm
-    # install multi-thread version to use multiple cores
-    gcc -DOPENMP -fopenmp -O3 -finline-functions -funroll-loops -Wall -o FastTreeMP FastTree.c -lm
+
 
 **Commands**
 
