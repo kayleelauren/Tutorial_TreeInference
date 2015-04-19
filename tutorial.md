@@ -107,6 +107,8 @@ CIPRES --> https://www.phylo.org/
 * how to run jobs: http://www.phylo.org/tools/flash/cipresportal2_task_management.htm  
 
 1) Register (you can make use of the system as a guest but it's much easier to handle data with a username).  
+* Use your drexel email, they may give you more [CPU time](http://www.phylo.org/index.php/help/cpu_help)  
+
 2) Upload data (alignments are in the [/Tutorial_TreeInference/alignments/](https://github.com/JacobRPrice/Tutorial_TreeInference/tree/master/alignments) directory.  
 * select "create new folder" in home screen. 
 * name the folder and give it a description. 
@@ -115,10 +117,7 @@ CIPRES --> https://www.phylo.org/
 * select "upload data"  
 * "choose files" navigate to and select your file to upload  
 
-3) 
-
-
-
+3) Start building your trees!
 
 ##Building Phylogenetic Trees with RAxML
 
@@ -130,25 +129,34 @@ CIPRES --> https://www.phylo.org/
 
 
 ___
-#Viewing Phylogenetic Trees
+#Viewing Phylogenetic Trees  
 
-**Seaview** (http://doua.prabi.fr/software/seaview)
+##Seaview  
+Seaview Homepage: http://doua.prabi.fr/software/seaview  
+Seaview Help Page: http://doua.prabi.fr/software/seaview_data/seaview  
+Supported tree formats:  
+* Newick  
+* Nexus  
+* Phylip  
+* others?  
 
 ![SeaView](http://doua.prabi.fr/binaries/seaview-tree)
 
-**Interactive Tree of Life** (http://itol.embl.de/)
+##Interactive Tree of Life  
+iTOL Home Page: http://itol.embl.de/  
+iTOL Help Pages: http://itol.embl.de/help/help.shtml  
+Supported tree formats: 
+* Newick  
+* Nexus  
+* PhyloXML    
 
 ![iTOL](http://itol.embl.de/img/head_fra.jpg)
 
 ![iTOLexample](http://itol.embl.de/img/itol.jpg)
 
 
-iTOL Help Pages: http://itol.embl.de/help/help.shtml
 
-Supported tree formats: 
-* Newick 
-* Nexus 
-* PhyloXML
+
 
 
 
