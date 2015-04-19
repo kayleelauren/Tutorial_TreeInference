@@ -111,11 +111,16 @@ CIPRES --> https://www.phylo.org/
 
 2) Upload data (alignments are in the [/Tutorial_TreeInference/alignments/](https://github.com/JacobRPrice/Tutorial_TreeInference/tree/master/alignments) directory.  
 * select "create new folder" in home screen. 
+![1](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/cipres1.png)  
 * name the folder and give it a description. 
+![2](https://github.com/JacobRPrice/Tutorial_TreeInference/blob/master/images/cipres2.png)  
 * select "save" --> new folder will show up in left panel
 * select "data" subdirectory. 
+![3](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/cipres3.png)  
 * select "upload data"  
-* "choose files" navigate to and select your file to upload  
+![4](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/cipres4.png)  
+* "choose files" navigate to and select your file to upload
+![5](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/cipres5.png)  
 
 3) Start building your trees!
 
