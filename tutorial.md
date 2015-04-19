@@ -131,12 +131,15 @@ CIPRES --> https://www.phylo.org/
 ![downloadfiles](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/downloadfiles.png)  
 
 ##Building Phylogenetic Trees with FastTree (on CIPRES)  
-
+![downloadfiles](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/createnewtask.png)  
 **To prepare 16s_muscle_FastTree:**  
 **Description:** 16S_muscle_FastTree  
 **Input:** 16S_muscle.fasta   
 **Tool:** FastTreeMP on XSEDE  
+![downloadfiles](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/descriptionetc.png)  
+
 **Input Parameters:**  
+
 
 Data Type:  
 > Nucleotide
