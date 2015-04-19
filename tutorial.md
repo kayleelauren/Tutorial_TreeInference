@@ -134,10 +134,10 @@ CIPRES --> https://www.phylo.org/
 * how to run jobs: http://www.phylo.org/tools/flash/cipresportal2_task_management.htm  
 * HELP: http://www.phylo.org/index.php/help  
 
-1) Register (you can make use of the system as a guest but it's much easier to handle data with a username).  
+###1) Register (you can make use of the system as a guest but it's much easier to handle data with a username).  
 * Use your drexel email, they may give you more [CPU time](http://www.phylo.org/index.php/help/cpu_help)  
 
-2) Upload data (alignments are in the [/Tutorial_TreeInference/alignments/](https://github.com/JacobRPrice/Tutorial_TreeInference/tree/master/alignments) directory.  
+##2) Upload data (alignments are in the [/Tutorial_TreeInference/alignments/](https://github.com/JacobRPrice/Tutorial_TreeInference/tree/master/alignments) directory.  
 * select "create new folder" in home screen. 
 ![1](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/cipres1.png)  
 * name the folder and give it a description. 
@@ -150,12 +150,17 @@ CIPRES --> https://www.phylo.org/
 * "choose files" navigate to and select your file to upload  -> upload all 4 alignments
 ![5](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/cipres5.png)  
 
+
+
 3) Create a Task.   
 4) Submit Task.   
 5) Grab some coffee. You'll get an email when the run is done (or you can refresh the page).  
 ![downloadfiles](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/rundone.png)  
 6) Profit: Download output files.   
 ![downloadfiles](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/downloadfiles.png)  
+
+##Building Phylogenetic Trees with RAxML (on CIPRES)   
+
 
 ##Building Phylogenetic Trees with FastTree (on CIPRES)  
 
@@ -229,7 +234,7 @@ Select “Save” to save the task.
 
 5) Select “save”.  
 
-##Building Phylogenetic Trees with RAxML (on CIPRES)   
+
 
 
 
