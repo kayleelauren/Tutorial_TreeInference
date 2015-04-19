@@ -1,6 +1,6 @@
 ECES690 Tutorial 2: Tree Inference - RAxML and FastTree
 ___
-Please view the tutorial markdown file [Here](https://github.com/JacobRPrice/Tutorial_TreeInference/blob/master/tutorial.md)
+Please view the tutorial markdown file [HERE](https://github.com/JacobRPrice/Tutorial_TreeInference/blob/master/tutorial.md)
 ___
 **Cloning this repository:**
 
