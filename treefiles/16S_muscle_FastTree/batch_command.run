@@ -1,0 +1,37 @@
+#!/bin/sh
+#PBS -q shared
+#PBS -N NGBW-JOB-FASTTREE_XSEDE-5FD87969F0B24E30AAE7F533D5B410AD
+#PBS -l walltime=00:30:00
+#PBS -l epilogue=/projects/ps-ngbt/backend/trestles_workspace/NGBW-JOB-FASTTREE_XSEDE-5FD87969F0B24E30AAE7F533D5B410AD/epilogue.sh
+#PBS -o scheduler_stdout.txt
+#PBS -e scheduler_stderr.txt
+#PBS -W umask=0007
+##PBS -V
+
+#PBS -v QOS=2
+
+#PBS -M  terri@sdsc.edu,mmiller@sdsc.edu
+#PBS -m ae
+#PBS -A TG-DEB090011
+
+#PBS -l nodes=1:ppn=2
+cd /projects/ps-ngbt/backend/trestles_workspace/NGBW-JOB-FASTTREE_XSEDE-5FD87969F0B24E30AAE7F533D5B410AD
+
+source /etc/profile.d/modules.sh
+
+
+date +'%s %a %b %e %R:%S %Z %Y' > start.txt
+
+curl -k https://www.phylo.org/portal2/taskupdate.action?taskId=650448\&jh=NGBW-JOB-FASTTREE_XSEDE-5FD87969F0B24E30AAE7F533D5B410AD\&status=START
+
+export CIPRES_THREADSPP=2
+export CIPRES_NP=1
+
+./batch_command.cmdline 1>stdout.txt 2>stderr.txt
+retval=$?
+
+date +'%s %a %b %e %R:%S %Z %Y' > done.txt
+qstat -f $PBS_JOBID | grep Job
+qstat -f $PBS_JOBID | grep resources
+curl -k https://www.phylo.org/portal2/taskupdate.action?taskId=650448\&jh=NGBW-JOB-FASTTREE_XSEDE-5FD87969F0B24E30AAE7F533D5B410AD\&status=DONE
+exit $retval

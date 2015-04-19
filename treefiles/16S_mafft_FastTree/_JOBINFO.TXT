@@ -1,0 +1,14 @@
+Task\ label=16S_mafft_FastTree
+Task\ ID=650449
+Tool=FASTTREE_XSEDE
+created\ on=2015-04-19 09:57:55.0
+JobHandle=NGBW-JOB-FASTTREE_XSEDE-ACF3FD1BEBE2451BBA41E8A89B20D402
+resource=trestles
+User\ ID=67533
+User\ Name=jrp355
+email=jrp355@drexel.edu
+
+Output=(all_results,*,UNKNOWN,UNKNOWN,UNKNOWN)
+ChargeFactor=1.000000
+cores=2
+JOBID=2581316.trestles-fe1.local

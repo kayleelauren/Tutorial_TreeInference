@@ -1,0 +1,39 @@
+Command: fasttree -close 0.75 -refresh 0.8 -no2nd -topm 3 -log logfile.txt -nni 6 -spr 2 -sprlength 10 -cat 20 -boot 1000 infile
+FastTree Version 2.1.7 SSE3, OpenMP (2 threads)
+Alignment: infile
+Amino acid distances: BLOSUM45 Joins: balanced Support: SH-like 1000
+Search: Normal +NNI (6 rounds) +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 3.00*sqrtN close=0.75 refresh=0.80
+ML Model: Jones-Taylor-Thorton, CAT approximation with 20 rate categories
+Read 7 sequences, 180 positions
+NJ	((Haemophilus_influenzae_86_028NP_uid58093:0.0,Haemophilus_influenzae_Rd_KW20_uid57771:0.0):0.00629,(Haemophilus_influenzae_10810_uid86647:0.00000,Haemophilus_influenzae_PittGG_uid58593:0.00507):0.00385,((Haemophilus_influenzae_F3031_uid62123:0.0,Haemophilus_influenzae_F3047_uid62097:0.0):0.06806,Haemophilus_influenzae_PittEE_uid58591:0.00892):0.00122);
+ME_NNI1	((Haemophilus_influenzae_F3031_uid62123:0.0,Haemophilus_influenzae_F3047_uid62097:0.0):0.06806,(Haemophilus_influenzae_10810_uid86647:0.00000,Haemophilus_influenzae_PittGG_uid58593:0.00507):0.00385,((Haemophilus_influenzae_86_028NP_uid58093:0.0,Haemophilus_influenzae_Rd_KW20_uid57771:0.0):0.00629,Haemophilus_influenzae_PittEE_uid58591:0.00892):0.00122);
+ME_NNI2	((Haemophilus_influenzae_F3031_uid62123:0.0,Haemophilus_influenzae_F3047_uid62097:0.0):0.06806,(Haemophilus_influenzae_10810_uid86647:0.00000,Haemophilus_influenzae_PittGG_uid58593:0.00507):0.00385,((Haemophilus_influenzae_86_028NP_uid58093:0.0,Haemophilus_influenzae_Rd_KW20_uid57771:0.0):0.00629,Haemophilus_influenzae_PittEE_uid58591:0.00892):0.00122);
+Min_evolution NNIs converged at round 2 -- skipping some rounds
+ME_SPR1	((Haemophilus_influenzae_F3031_uid62123:0.0,Haemophilus_influenzae_F3047_uid62097:0.0):0.06806,(Haemophilus_influenzae_10810_uid86647:0.00000,Haemophilus_influenzae_PittGG_uid58593:0.00507):0.00385,((Haemophilus_influenzae_86_028NP_uid58093:0.0,Haemophilus_influenzae_Rd_KW20_uid57771:0.0):0.00629,Haemophilus_influenzae_PittEE_uid58591:0.00892):0.00122);
+ME_NNI3	((Haemophilus_influenzae_F3031_uid62123:0.0,Haemophilus_influenzae_F3047_uid62097:0.0):0.06806,(Haemophilus_influenzae_10810_uid86647:0.00000,Haemophilus_influenzae_PittGG_uid58593:0.00507):0.00385,((Haemophilus_influenzae_86_028NP_uid58093:0.0,Haemophilus_influenzae_Rd_KW20_uid57771:0.0):0.00629,Haemophilus_influenzae_PittEE_uid58591:0.00892):0.00122);
+Min_evolution NNIs converged at round 3 -- skipping some rounds
+ME_SPR2	((Haemophilus_influenzae_F3031_uid62123:0.0,Haemophilus_influenzae_F3047_uid62097:0.0):0.06806,(Haemophilus_influenzae_10810_uid86647:0.00000,Haemophilus_influenzae_PittGG_uid58593:0.00507):0.00385,((Haemophilus_influenzae_86_028NP_uid58093:0.0,Haemophilus_influenzae_Rd_KW20_uid57771:0.0):0.00629,Haemophilus_influenzae_PittEE_uid58591:0.00892):0.00122);
+ME_NNI5	((Haemophilus_influenzae_F3031_uid62123:0.0,Haemophilus_influenzae_F3047_uid62097:0.0):0.06806,(Haemophilus_influenzae_10810_uid86647:0.00000,Haemophilus_influenzae_PittGG_uid58593:0.00507):0.00385,((Haemophilus_influenzae_86_028NP_uid58093:0.0,Haemophilus_influenzae_Rd_KW20_uid57771:0.0):0.00629,Haemophilus_influenzae_PittEE_uid58591:0.00892):0.00122);
+Min_evolution NNIs converged at round 5 -- skipping some rounds
+ME_Lengths	((Haemophilus_influenzae_F3031_uid62123:0.0,Haemophilus_influenzae_F3047_uid62097:0.0):0.09232,(Haemophilus_influenzae_10810_uid86647:-0.00015,Haemophilus_influenzae_PittGG_uid58593:0.00676):0.00495,((Haemophilus_influenzae_86_028NP_uid58093:0.0,Haemophilus_influenzae_Rd_KW20_uid57771:0.0):0.00817,Haemophilus_influenzae_PittEE_uid58591:0.01176):0.00172);
+Total branch-length 0.126 after 0.00 sec
+ML_Lengths1	((Haemophilus_influenzae_F3031_uid62123:0.0,Haemophilus_influenzae_F3047_uid62097:0.0):0.08301,(Haemophilus_influenzae_10810_uid86647:0.00055,Haemophilus_influenzae_PittGG_uid58593:0.00556):0.00054,((Haemophilus_influenzae_86_028NP_uid58093:0.0,Haemophilus_influenzae_Rd_KW20_uid57771:0.0):0.00546,Haemophilus_influenzae_PittEE_uid58591:0.01103):0.00547);
+ML_NNI1	((Haemophilus_influenzae_F3031_uid62123:0.0,Haemophilus_influenzae_F3047_uid62097:0.0):0.08301,(Haemophilus_influenzae_10810_uid86647:0.00055,Haemophilus_influenzae_PittGG_uid58593:0.00556):0.00054,((Haemophilus_influenzae_86_028NP_uid58093:0.0,Haemophilus_influenzae_Rd_KW20_uid57771:0.0):0.00546,Haemophilus_influenzae_PittEE_uid58591:0.01105):0.00547);
+TreeLogLk	ML_NNI1	-676.0258	MaxChange	0.0000
+NCategories	20
+Rates 0.076897 0.105405 0.144481 0.198044 0.271464 0.372103 0.510051 0.699140 0.958330 1.313607 1.800595 2.468121 3.383117 4.637324 6.356500 8.713017 11.943155 16.370789 22.439859 30.758890
+SiteCategories 9 9 10 9 9 9 9 9 9 9 9 10 10 9 9 9 9 9 9 9 10 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 9 10 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 9 9 9 9 9 9 9 9 10 9 9 11 9 9 9 9 9 10 9 9 9 9 9 10 9 9 9 9 9 9 9 9 10 9 9 10 9 9 11 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 9 9 9 9 9 9 9 9 9 9 9 11 9 9 9 9 9 9 9 9 9 9 9 10 9 9 9 9 9 9 9 9 9
+ML_NNI2	((Haemophilus_influenzae_F3031_uid62123:0.0,Haemophilus_influenzae_F3047_uid62097:0.0):0.08583,(Haemophilus_influenzae_10810_uid86647:0.00055,Haemophilus_influenzae_PittGG_uid58593:0.00547):0.00054,((Haemophilus_influenzae_86_028NP_uid58093:0.0,Haemophilus_influenzae_Rd_KW20_uid57771:0.0):0.00553,Haemophilus_influenzae_PittEE_uid58591:0.01105):0.00545);
+TreeLogLk	ML_NNI2	-668.7376	MaxChange	0.0000
+Turning off heuristics for final round of ML NNIs (converged)
+ML_NNI3	((Haemophilus_influenzae_F3031_uid62123:0.0,Haemophilus_influenzae_F3047_uid62097:0.0):0.08583,(Haemophilus_influenzae_10810_uid86647:0.00055,Haemophilus_influenzae_PittGG_uid58593:0.00547):0.00054,((Haemophilus_influenzae_86_028NP_uid58093:0.0,Haemophilus_influenzae_Rd_KW20_uid57771:0.0):0.00553,Haemophilus_influenzae_PittEE_uid58591:0.01105):0.00546);
+TreeLogLk	ML_NNI3	-668.7375	MaxChange	0.0000
+ML_Lengths2	((Haemophilus_influenzae_F3031_uid62123:0.0,Haemophilus_influenzae_F3047_uid62097:0.0):0.08583,(Haemophilus_influenzae_10810_uid86647:0.00055,Haemophilus_influenzae_PittGG_uid58593:0.00547):0.00054,((Haemophilus_influenzae_86_028NP_uid58093:0.0,Haemophilus_influenzae_Rd_KW20_uid57771:0.0):0.00553,Haemophilus_influenzae_PittEE_uid58591:0.01105):0.00546);
+TreeLogLk	ML_Lengths2	-668.7375
+Total time: 0.08 seconds Unique: 5/7 Bad splits: 0/2
+Dist/N**2: by-profile 13.640 (out 0.480) by-leaf 1.720 avg-prof 3.760
+ Hill-climb: 0 Update-best: 0
+NNI: 1 SPR: 0 ML-NNI: 0
+Max-lk operations: lk 1943 posterior 332 approximate-posteriors 0.00% star-only 0
+TreeCompleted

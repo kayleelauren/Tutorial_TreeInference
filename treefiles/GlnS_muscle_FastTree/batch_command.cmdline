@@ -1,0 +1,2 @@
+#!/bin/sh
+fasttreewrapper -close 0.75 -refresh 0.8 -no2nd -topm 3 -log logfile.txt -nni 6 -spr 2 -sprlength 10 -cat 20 -boot 1000 infile 

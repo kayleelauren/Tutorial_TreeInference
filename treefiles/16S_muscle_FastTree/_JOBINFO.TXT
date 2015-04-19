@@ -1,0 +1,14 @@
+Task\ label=16S_muscle_FastTree
+Task\ ID=650448
+Tool=FASTTREE_XSEDE
+created\ on=2015-04-19 08:20:44.0
+JobHandle=NGBW-JOB-FASTTREE_XSEDE-5FD87969F0B24E30AAE7F533D5B410AD
+resource=trestles
+User\ ID=67533
+User\ Name=jrp355
+email=jrp355@drexel.edu
+
+Output=(all_results,*,UNKNOWN,UNKNOWN,UNKNOWN)
+ChargeFactor=1.000000
+cores=2
+JOBID=2581317.trestles-fe1.local

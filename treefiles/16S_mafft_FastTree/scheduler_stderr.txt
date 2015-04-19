@@ -1,0 +1,7 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     3    0     3    0     0     16      0 --:--:-- --:--:-- --:--:--   600
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     3    0     3    0     0     13      0 --:--:-- --:--:-- --:--:--   111
+Can't remove /etc/security/access.conf: No such file or directory, skipping file.
