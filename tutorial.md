@@ -61,29 +61,17 @@ install multi-thread version to use multiple cores
 QIIME has a [function](http://qiime.org/1.3.0/scripts/make_phylogeny.html) that makes it easy to streamline the tree building process.  It has options for both RAxML and FastTree methods.  
 
     make_phylogeny.py [options]  
-    
-[REQUIRED]  
-
--i, --input_fp  
-
+    [REQUIRED]  
+    -i, --input_fp  
     Path to read input fasta alignment, only first word in defline will be considered  
-    
-[OPTIONAL]  
-
--t, --tree_method  
-
-    Method for tree building. Valid choices are: clearcut, clustalw, raxml, fasttree_v1, fasttree, muscle [default: fasttree]  
-    
--o, --result_fp  
-
+    [OPTIONAL]  
+    -t, --tree_method  
+    Method for tree building. Valid choices are: clearcut, clustalw, raxml, fasttree_v1, fasttree, muscle [default: fasttree]
+    -o, --result_fp  
     Path to store result file [default: <input_sequences_filename>.tre]  
-    
--l, --log_fp  
-
+    -l, --log_fp  
     Path to store log file [default: No log file created.]  
-    
--r, --root_method  
-
+    -r, --root_method  
     Method for choosing root of phylo tree Valid choices are: midpoint, tree_method_default [default: tree_method_default]  
 
 ##CIPRES
@@ -111,12 +99,24 @@ The RAxML tree search algorithm uses the Lazy Subtree Rearrangement (LSR).
 FastTree
 
 ___
-
-
-
-
-___
 #Building Phylogenetic Trees
+We will be using CIPRES to build trees for the 4 alignments Saeed and Dmitry have created. 
+
+CIPRES --> https://www.phylo.org/  
+* How to manage data: http://www.phylo.org/tools/flash/cipresportal2_data_management.htm  
+* how to run jobs: http://www.phylo.org/tools/flash/cipresportal2_task_management.htm  
+
+1) Register (you can make use of the system as a guest but it's much easier to handle data with a username).  
+2) Upload data (alignments are in the [/Tutorial_TreeInference/alignments/](https://github.com/JacobRPrice/Tutorial_TreeInference/tree/master/alignments) directory.  
+* select "create new folder" in home screen. 
+* name the folder and give it a description. 
+* select "save" --> new folder will show up in left panel
+* select "data" subdirectory. 
+* select "upload data"  
+* "choose files" navigate to and select your file to upload  
+
+3) 
+
 
 
 
@@ -130,7 +130,7 @@ ___
 
 
 ___
-##Viewing Phylogenetic Trees
+#Viewing Phylogenetic Trees
 
 **Seaview** (http://doua.prabi.fr/software/seaview)
 
