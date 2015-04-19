@@ -82,21 +82,48 @@ ___
 
 ##RAxML Algorithm
 
+
 ##FastTree Algorithm
+
+###Neighbor Joining with Profiles
+
+Fast Tree uses the Neighbor-Joining with Profiles approach to tree inference. It implements this
+Neighbor-Joining by storing "profiles" for the internal nodes of the tree rather than
+storing a distance matrix.
+
+####How Fast Tree Computes Distances Between Profiles
+
+####Distances between Sequences
+* Uses both corrected and uncorrected distances
+* Corrects the distances for multiple substitutions during Nearest Neighbor Interchanges (NNI's), computing final branch lengths and local bootstrap, but not during Neighbor-Joining  
+**Nucleotide Sequences**
+* Uncorrected Distance d<sub>u</sub> = fraction of positions that differ
+* Corrected Distance Jukes-Cantor distance: d = -3/4log(1-4/3d<sub>u</sub>)  
+**Protein Sequences**
+* Estimates by using BLOSUM45 amino acid similarity matrix
+* Uncorrected distance d<sub>u</sub> = average dissimilarity among nongap positions
+* Corrected distance d = -1.3 x log(1-d<sub>u</sub>)  
+**Both Nucleotide and Protein Sequences**
+* Truncates the corrected distances to a max of 3.0 substitutions per site, and for sequences that do not overlap because of gaps, Fast Tree uses this max distance
+	
+####Distances between Profiles
+* Uses profiles to estimate the average distance between the children of two nodes
+* Profile distance at each position is the average dissimilarity of the characters
+	
+####Distances between Internal Nodes
+
+####Calculating the Neighbor-Joining Criterion
+
+####Selecting the best Join
+
+####A Rough Overview of Fast Tree
+![Fast Tree Overview](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/FastTreeOverview.38%20PM.png)
 
 ___
 
 #Comparison of RAxML and FastTree
 
-Algorithms
 
-RAxML (Random Axelerated Maximum Likelihood)
-
-Default Algorithm: Rapid Hill Climbing
-
-The RAxML tree search algorithm uses the Lazy Subtree Rearrangement (LSR).
-
-FastTree
 
 ___
 #Building Phylogenetic Trees
