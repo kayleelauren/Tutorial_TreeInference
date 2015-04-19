@@ -161,10 +161,9 @@ CIPRES --> https://www.phylo.org/
 ####Building Phylogenetic Trees with RAxML (on CIPRES)   
 
 **To prepare 16S_muscle_RAxML:**   
-**To prepare 16s_muscle_FastTree:**    
-**Description:** 16S_muscle_FastTree    
+**Description:** 16S_muscle_raxml    
 **Input:** 16S_muscle.fasta     
-**Tool:** FastTreeMP on XSEDE    
+**Tool:** RAxML-HPC2 on XSEDE   
 **Input Parameters:**   
 Don't change anything --> keep all of the defaults. 
 * Select "Save" to save the task to your task list.  
