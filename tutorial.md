@@ -111,10 +111,19 @@ storing a distance matrix.
 * Profile distance at each position is the average dissimilarity of the characters
 	
 ####Distances between Internal Nodes
+* Neighbor-Joining operates on distances between internal nodes rather
+than on average distances between the members of subtrees
+* For example, after joining nodes A and B, Neighbor-Joining sets  
+  d<sub>u</sub>(AB,C) = d<sub>u</sub>(A,C) + d<sub>u</sub>(B,C) - d<sub>u</sub>(A,B)/2
+* Fast Tree instead sets the profile of AB to P(AB) = (P(A) + P(B))/2  (where P is a vector)
+and computes the distance between nodes with
+  d<sub>u</sub>(i,j) = &#916;(i,j) - u(i) - u(j), where &#916; is the profile distance and u(i) is the "up distance" (average distance of the node from its children)
+* This profile-based computation gives the exact same value of same value of d<sub>u</sub>(i,j) as long as distances are not  
+corrected for multiple substitutions and the sequences contain no gaps  
 
 ####Calculating the Neighbor-Joining Criterion
 
-####Selecting the best Join
+####Selecting the Best Join
 
 ####A Rough Overview of Fast Tree
 ![Fast Tree Overview](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/FastTreeOverview.38%20PM.png)
