@@ -50,7 +50,7 @@ install multi-thread version to use multiple cores
     gcc -DOPENMP -fopenmp -O3 -finline-functions -funroll-loops -Wall -o FastTreeMP FastTree.c -lm   
 
 **Unfortunately, installing and running these packages can be tricky, particularly on a cluster.**  
-* Dependancies
+* Dependencies
 * Adding executable locations to PATH  
 * Capabilities in handing different input and output files
 * etc...
