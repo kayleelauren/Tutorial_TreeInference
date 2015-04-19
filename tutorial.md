@@ -134,11 +134,13 @@ CIPRES --> https://www.phylo.org/
 * how to run jobs: http://www.phylo.org/tools/flash/cipresportal2_task_management.htm  
 * HELP: http://www.phylo.org/index.php/help  
 
-###1) Register (you can make use of the system as a guest but it's much easier to handle data with a username).  
+###1) Register  
+(you can make use of the system as a guest but it's much easier to handle data with a username)  
 * Use your drexel email, they may give you more [CPU time](http://www.phylo.org/index.php/help/cpu_help)  
 
-##2) Upload data (alignments are in the [/Tutorial_TreeInference/alignments/](https://github.com/JacobRPrice/Tutorial_TreeInference/tree/master/alignments) directory.  
-* select "create new folder" in home screen. 
+###2) Upload your data  
+(alignments are in the [/Tutorial_TreeInference/alignments/](https://github.com/JacobRPrice/Tutorial_TreeInference/tree/master/alignments) directory.  
+* select "create new folder" in home screen.  
 ![1](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/cipres1.png)  
 * name the folder and give it a description. 
 ![2](https://github.com/JacobRPrice/Tutorial_TreeInference/blob/master/images/cipres2.png)  
@@ -150,19 +152,26 @@ CIPRES --> https://www.phylo.org/
 * "choose files" navigate to and select your file to upload  -> upload all 4 alignments
 ![5](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/cipres5.png)  
 
+###3) Create a Task.  
+* Inside "Task" directory, select create new task.  
+![createnewtask](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/createnewtask.png)  
+* Give your task a description, select your input files, and select your tools. Then modify your task's parameters.  
+![descriptionetc](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/descriptionetc.png)  
 
+####Building Phylogenetic Trees with RAxML (on CIPRES)   
 
-3) Create a Task.   
-4) Submit Task.   
-5) Grab some coffee. You'll get an email when the run is done (or you can refresh the page).  
-![downloadfiles](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/rundone.png)  
-6) Profit: Download output files.   
-![downloadfiles](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/downloadfiles.png)  
+**To prepare 16S_muscle_RAxML:**   
+**To prepare 16s_muscle_FastTree:**    
+**Description:** 16S_muscle_FastTree    
+**Input:** 16S_muscle.fasta     
+**Tool:** FastTreeMP on XSEDE    
+**Input Parameters:**   
+Don't change anything --> keep all of the defaults. 
+* Select "Save" to save the task to your task list.  
 
-##Building Phylogenetic Trees with RAxML (on CIPRES)   
-
-
-##Building Phylogenetic Trees with FastTree (on CIPRES)  
+        If you're doing multiple runs of a similar type you can use the "Clone" button to clone a task and then modify it  
+        
+####Building Phylogenetic Trees with FastTree (on CIPRES)  
 
 **To prepare 16s_muscle_FastTree:**  
 **Description:** 16S_muscle_FastTree  
@@ -201,45 +210,13 @@ m = log2(N) = Log2(20) = 5
 -refresh  
 > set to default = 0.8  
 
-Select “Save” to save the task.   
+* Select “Save” to save the task.   
 
-**To prepare 16s_mafft_FastTree:**  
-
-1) Select “clone” next to 16S_muscle_FastTree.    
-2) Change the name to 16S_mafft_FastTree.  
-3) Change data to 16S_mafft.  
-4) Select “save”.  
-
-**To prepare GlnS_muscle_FastTree:**  
-
-1) Select “clone” next to 16S_muscle_FastTree.   
-2) Change the name to GlnS_mafft_FastTree.  
-3) Change data to GlnS_muscle.  
-4) Update parameters  
-* N = 7
-* nni = 2log2(N) = 2log2(7) = 6  
-* topm = log2(N) = log2(7) ~ 3   
-
-5) Select “save”.  
-
-**To prepare GlnS_mafft_FastTree:**  
-
-1) Select “clone” next to 16S_mafft_FastTree.   
-2) Change the name to GnlS_mafft_FastTree.  
-3) Change data to GlnS_mafft.  
-4) Update parameters  
-* N = 7  
-* nni = 2log2(N) = 2log2(7) = 6   
-* topm = log2(N) = log2(7) ~ 3    
-
-5) Select “save”.  
-
-
-
-
-
-
-
+###4) Submit your tasks from your task screen.  
+###5) Grab some coffee. You'll get an email when the run is done (or you can refresh the page).  
+![downloadfiles](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/rundone.png)  
+###6) Download output files.   
+![downloadfiles](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/downloadfiles.png)  
 
 ___
 #Viewing Phylogenetic Trees  
