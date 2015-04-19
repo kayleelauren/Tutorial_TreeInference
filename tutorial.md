@@ -175,6 +175,11 @@ CIPRES --> https://www.phylo.org/
 **Tool:** RAxML-HPC2 on XSEDE   
 **Input Parameters:**   
 Don't change anything --> keep all of the defaults. 
+
+From the manual:   
+>Warning: It is not a good idea to use the CAT approximation of rate heterogeneity on datasets
+with less than 50 taxa. 
+
 * Select "Save" to save the task to your task list.  
 
         If you're doing multiple runs of a similar type you can use the "Clone" button to clone a task and then modify it  
