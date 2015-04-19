@@ -100,7 +100,7 @@ FastTree
 
 ___
 #Building Phylogenetic Trees
-We will be using CIPRES to build trees for the 4 alignments Saeed and Dmitry have created. 
+We will be using CIPRES to build trees for the 4 alignments Saeed and Dmitry have created. We will be running this off of your local machine, not Proteus (obviously) so you can clone this repository to your desktop.
 
 CIPRES --> https://www.phylo.org/  
 * How to manage data: http://www.phylo.org/tools/flash/cipresportal2_data_management.htm  
@@ -119,7 +119,7 @@ CIPRES --> https://www.phylo.org/
 ![3](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/cipres3.png)  
 * select "upload data"  
 ![4](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/cipres4.png)  
-* "choose files" navigate to and select your file to upload
+* "choose files" navigate to and select your file to upload  -> upload all 4 alignments
 ![5](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/cipres5.png)  
 
 3) Start building your trees!
@@ -130,7 +130,15 @@ CIPRES --> https://www.phylo.org/
 ##Building Phylogenetic Trees with FastTree
 
 1) Register (I know, I know...)  
-2) 
+2) Select the "Trees and Data" tab
+3) Create a new workspace
+4) Select "upload a new tree to this project"
+5) Choose a tree to upload.  
+* Name the tree, otherwise it's difficult to distinguish which is which. 
+* Adding a description can help with clarity as well.  
+
+6) Add any datasets (metadata) you may have for the tree. 
+* Not discussed here.
 
 
 
