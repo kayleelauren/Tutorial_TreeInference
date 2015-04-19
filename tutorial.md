@@ -161,12 +161,12 @@ Supported tree formats:
 We will be using iTOL to view our trees. 
 
 1) Register (I know, I know...)  
-2) Select the "Trees and Data" tab
-3) Create a new workspace
-4) Select "upload a new tree to this project"
-5) Choose a tree to upload.  
-* Name the tree, otherwise it's difficult to distinguish which is which. 
-* Adding a description can help with clarity as well.  
+2) Select the "Trees and Data" tab  
+3) Create a new workspace  
+4) Select "upload a new tree to this project"   
+5) Choose a tree to upload.    
+* Name the tree, otherwise it's difficult to distinguish which is which.   
+* Adding a description can help with clarity as well.    
 
 6) Add any datasets (metadata) you may have for the tree. 
 * Not discussed here.
