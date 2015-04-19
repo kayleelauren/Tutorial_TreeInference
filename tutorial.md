@@ -123,54 +123,55 @@ CIPRES --> https://www.phylo.org/
 * "choose files" navigate to and select your file to upload  -> upload all 4 alignments
 ![5](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/cipres5.png)  
 
-3) Create a Task. 
-4) Submit Task. 
-5) Grab some coffee. You'll get an email when the run is done. 
-6) Profit: Download output files. 
+3) Create a Task.   
+4) Submit Task.   
+5) Grab some coffee. You'll get an email when the run is done.   
+6) Profit: Download output files.   
 
 ##Building Phylogenetic Trees with FastTree (on CIPRES)  
+
 **To prepare 16s_muscle_FastTree:**  
-Description: 16S_muscle_FastTree  
-Input: 16S_muscle.fasta   
-Tool: FastTreeMP on XSEDE  
+**Description:** 16S_muscle_FastTree  
+**Input:** 16S_muscle.fasta   
+**Tool:** FastTreeMP on XSEDE  
+**Input Parameters:**  
 
-Input Parameters:  
+Data Type:  
+> Nucleotide
 
-Data Type: Nucleotide
+-nni  
+nearest-neighbor interchanges  
+> (((A,B),C),D) => (((A,C),B),D)  
+FastTree1  
+log2(N)+1 = log2(20) = 6  
+FastTree2  
+2log2(N) = 2log2(20) = 10  
 
--nni
-nearest-neighbor interchanges
-> (((A,B),C),D) => (((A,C),B),D)
-FastTree1
-log2(N)+1 = log2(20) = 6
-FastTree2
-2log2(N) = 2log2(20) = 10
+-spr  
+subtree-pruning-regrafting  
+> a subtree is removed from the tree and inserted elsewhere.   
 
--spr
-subtree-pruning-regrafting
-> a subtree is removed from the tree and inserted elsewhere. 
+-boot  
+number of bootstraps for Shimodaira-Hasegawa test  
+> set to default = 1000  
 
--boot
-number of bootstraps for Shimodaira-Hasegawa test
-set to default = 1000
+-topm   
+Top-Hit list.   
+> 20 sequences in alignment   
+N=20  
+m = log2(N) = Log2(20) = 5  
 
--topm 
-Top-Hit list. 
-20 sequences in alignment 
-N=20 
-m = log2(N) = Log2(20) = 5
+-close  
+> set to default = 0.75  
 
--close
-set to default = 0.75
+-refresh  
+> set to default = 0.8  
 
--refresh
-set to default = 0.8
-
-Select “Save” to save the task. 
+Select “Save” to save the task.   
 
 **To prepare 16s_mafft_FastTree:**  
 
-1) Select “clone” next to 16S_muscle_FastTree.   
+1) Select “clone” next to 16S_muscle_FastTree.    
 2) Change the name to 16S_mafft_FastTree.  
 3) Change data to 16S_mafft.  
 4) Select “save”.  
@@ -193,13 +194,13 @@ Select “Save” to save the task.
 2) Change the name to GnlS_mafft_FastTree.  
 3) Change data to GlnS_mafft.  
 4) Update parameters  
-* N = 7
-* nni = 2log2(N) = 2log2(7) = 6  
-* topm = log2(N) = log2(7) ~ 3   
+* N = 7  
+* nni = 2log2(N) = 2log2(7) = 6   
+* topm = log2(N) = log2(7) ~ 3    
 
 5) Select “save”.  
 
-##Building Phylogenetic Trees with RAxML (on CIPRES)  
+##Building Phylogenetic Trees with RAxML (on CIPRES)   
 
 
 
