@@ -53,10 +53,12 @@ install multi-thread version to use multiple cores
 * Dependancies
 * Adding executable locations to PATH  
 * Capabilities in handing different input and output files
+* etc...
 
 ![Good news everyone!](http://magellanverse.com/images/goodnewseveryone.png)
 
-**QIIME** has a [function](http://qiime.org/1.3.0/scripts/make_phylogeny.html) that makes it easy to streamline the tree building process.  It has options for both RAxML and FastTree methods.  
+##QIIME  
+QIIME has a [function](http://qiime.org/1.3.0/scripts/make_phylogeny.html) that makes it easy to streamline the tree building process.  It has options for both RAxML and FastTree methods.  
 
     make_phylogeny.py [options]  
     
@@ -84,44 +86,44 @@ install multi-thread version to use multiple cores
 
     Method for choosing root of phylo tree Valid choices are: midpoint, tree_method_default [default: tree_method_default]  
 
-**CIPRES** is another option. It offers a [web-based interface](https://www.phylo.org/) that allows users to avoid command line/terminal prompts.  Like QIIME, users are able to carry out tree building using [RAxML or FastTree](https://www.phylo.org/portal2/tools.action), amongst other methods. 
+##CIPRES
+CIPRES is another option. It offers a [web-based interface](https://www.phylo.org/) that allows users to avoid command line/terminal prompts.  Like QIIME, users are able to carry out tree building using [RAxML or FastTree](https://www.phylo.org/portal2/tools.action), amongst other methods. 
+
+___
+# Tree Inference Algorithms
+
+##RAxML Algorithm
+
+##FastTree Algorithm
+
+___
+
+#Comparison of RAxML and FastTree
+
+Algorithms
+
+RAxML (Random Axelerated Maximum Likelihood)
+
+Default Algorithm: Rapid Hill Climbing
+
+The RAxML tree search algorithm uses the Lazy Subtree Rearrangement (LSR).
+
+FastTree
 
 ___
 
 
-###RAxML Algorithm
 
-###Building Phylogenetic Trees with RAxML
 
 ___
-
-
-###FastTree Algorithm
-
-
-###Building Phylogenetic Trees with FastTree
-
-**Install on Proteus**
+#Building Phylogenetic Trees
 
 
 
-**Commands**
+##Building Phylogenetic Trees with RAxML
 
-protein alignment command
 
-    ./fasttree alignment_file > tree_file
-
-nucleotide alignment command GTR+CAT
-
-    ./fasttree -nt -gtr alignment_file > tree_file
-
-nucleotide alignment command Jukes-Cantor+CAT
-
-    ./fasttree -nt alignment_file > tree_file
-
--nt nucleotide alignment
--gtr generalized time-reversible model (nucleotide alignments only)
--quiet suppress progress indicator
+##Building Phylogenetic Trees with FastTree
 
 
 
@@ -152,16 +154,4 @@ Supported tree formats:
 
 
 ___
-##Comparison of RAxML and FastTree
 
-Algorithms
-
-RAxML (Random Axelerated Maximum Likelihood)
-
-Default Algorithm: Rapid Hill Climbing
-
-The RAxML tree search algorithm uses the Lazy Subtree Rearrangement (LSR).
-
-FastTree
-
-___
