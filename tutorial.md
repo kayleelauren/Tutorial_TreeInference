@@ -124,7 +124,8 @@ CIPRES --> https://www.phylo.org/
 
 ##Building Phylogenetic Trees with FastTree
 
-
+1) Register (I know, I know...)  
+2) 
 
 
 
@@ -153,6 +154,8 @@ Supported tree formats:
 ![iTOL](http://itol.embl.de/img/head_fra.jpg)
 
 ![iTOLexample](http://itol.embl.de/img/itol.jpg)
+
+We will be using iTOL to view our trees. 
 
 
 
