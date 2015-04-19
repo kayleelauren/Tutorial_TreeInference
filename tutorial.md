@@ -125,8 +125,10 @@ CIPRES --> https://www.phylo.org/
 
 3) Create a Task.   
 4) Submit Task.   
-5) Grab some coffee. You'll get an email when the run is done.   
+5) Grab some coffee. You'll get an email when the run is done (or you can refresh the page).  
+![downloadfiles](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/rundone.png)  
 6) Profit: Download output files.   
+![downloadfiles](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/downloadfiles.png)  
 
 ##Building Phylogenetic Trees with FastTree (on CIPRES)  
 
