@@ -1,8 +1,7 @@
-#ECES690 Tutorial 2: Tree Inference - RAxML and FastTree
+ECES690 Tutorial 2: Tree Inference - RAxML and FastTree
 ___
-
-NOTE: Background and supporting literature available in [LitReview](https://github.com/JacobRPrice/Tutorial_TreeInference/tree/master/LitReview) directory.
-
 **Cloning this directory:**
 
     git clone https://github.com/JacobRPrice/Tutorial_TreeInference.git
+___
+Please view the tutorial markdown file [Here](https://github.com/JacobRPrice/Tutorial_TreeInference/blob/master/tutorial.md)
