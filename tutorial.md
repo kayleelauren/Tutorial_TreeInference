@@ -15,16 +15,14 @@ WHY?
 HOW IS IT DONE? 
 
 ___
-
-COMMON METHODS
-
-
+#Tree Inference Packages
+There are at least [392](http://evolution.genetics.washington.edu/phylip/software.html) tree building packages available to researchers. Two commonly utilized packages are RAxML and FastTree. 
 
 ##RAxML: Randomized Axelerated Maximum Likelyhood
 
 RAxML Homepage: http://sco.h-its.org/exelixis/web/software/raxml/index.html  
 RAxML GitHub: https://github.com/stamatak/standard-RAxML  
-
+RAxML Install following directions on GitHub or the homepage. 
 
 ##FastTree
 
@@ -51,8 +49,42 @@ install multi-thread version to use multiple cores
 
     gcc -DOPENMP -fopenmp -O3 -finline-functions -funroll-loops -Wall -o FastTreeMP FastTree.c -lm   
 
+**Unfortunately, installing and running these packages can be tricky, particularly on a cluster.**  
+* Dependancies
+* Adding executable locations to PATH  
+* Capabilities in handing different input and output files
 
+![Good news everyone!](http://magellanverse.com/images/goodnewseveryone.png)
 
+**QIIME** has a [function](http://qiime.org/1.3.0/scripts/make_phylogeny.html) that makes it easy to streamline the tree building process.  It has options for both RAxML and FastTree methods.  
+
+    make_phylogeny.py [options]  
+    
+[REQUIRED]  
+
+-i, --input_fp  
+
+    Path to read input fasta alignment, only first word in defline will be considered  
+    
+[OPTIONAL]  
+
+-t, --tree_method  
+
+    Method for tree building. Valid choices are: clearcut, clustalw, raxml, fasttree_v1, fasttree, muscle [default: fasttree]  
+    
+-o, --result_fp  
+
+    Path to store result file [default: <input_sequences_filename>.tre]  
+    
+-l, --log_fp  
+
+    Path to store log file [default: No log file created.]  
+    
+-r, --root_method  
+
+    Method for choosing root of phylo tree Valid choices are: midpoint, tree_method_default [default: tree_method_default]  
+
+**CIPRES** is another option. It offers a [web-based interface](https://www.phylo.org/) that allows users to avoid command line/terminal prompts.  Like QIIME, users are able to carry out tree building using [RAxML or FastTree](https://www.phylo.org/portal2/tools.action), amongst other methods. 
 
 ___
 
@@ -131,3 +163,5 @@ Default Algorithm: Rapid Hill Climbing
 The RAxML tree search algorithm uses the Lazy Subtree Rearrangement (LSR).
 
 FastTree
+
+___
