@@ -130,16 +130,22 @@ CIPRES --> https://www.phylo.org/
 6) Profit: Download output files.   
 ![downloadfiles](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/downloadfiles.png)  
 
-##Building Phylogenetic Trees with FastTree (on CIPRES)  
+##Building Phylogenetic Trees with RAxML (on CIPRES)   
+###1) Create new "Task"
 ![downloadfiles](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/createnewtask.png)  
+###2) Edit Description, Input Files, Select a Tool    
+![downloadfiles](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/descriptionetc.png)  
+###3) Edit Input Parameters  
+###4) Save Task
+###5) Submit Task
+
+##Building Phylogenetic Trees with FastTree (on CIPRES)  
 **To prepare 16s_muscle_FastTree:**  
 **Description:** 16S_muscle_FastTree  
 **Input:** 16S_muscle.fasta   
 **Tool:** FastTreeMP on XSEDE  
-![downloadfiles](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/descriptionetc.png)  
 
 **Input Parameters:**  
-
 
 Data Type:  
 > Nucleotide
@@ -205,7 +211,7 @@ Select “Save” to save the task.
 
 5) Select “save”.  
 
-##Building Phylogenetic Trees with RAxML (on CIPRES)   
+
 
 
 
