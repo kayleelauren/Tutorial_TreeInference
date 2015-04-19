@@ -105,6 +105,7 @@ We will be using CIPRES to build trees for the 4 alignments Saeed and Dmitry hav
 CIPRES --> https://www.phylo.org/  
 * How to manage data: http://www.phylo.org/tools/flash/cipresportal2_data_management.htm  
 * how to run jobs: http://www.phylo.org/tools/flash/cipresportal2_task_management.htm  
+* HELP: http://www.phylo.org/index.php/help  
 
 1) Register (you can make use of the system as a guest but it's much easier to handle data with a username).  
 * Use your drexel email, they may give you more [CPU time](http://www.phylo.org/index.php/help/cpu_help)  
@@ -143,7 +144,15 @@ Supported tree formats:
 * Nexus  
 * Phylip  
 * others?  
+Pros:  
+* Easy to use  
+* Manual manipulation of alignments is simple  
+Cons:  
+* "Outdated" GUI might turn some off
+* Trees are NOT "pretty"
+* Limited alignment and tree building methods without using/installing packages from other sources
 
+![seaviewprotein](https://modernmodelorganism.files.wordpress.com/2011/02/nogaps.png)
 ![SeaView](http://doua.prabi.fr/binaries/seaview-tree)
 
 ##Interactive Tree of Life  
@@ -176,6 +185,8 @@ We will be using iTOL to view our trees.
 
 
 
+
+##Comparing The Phylogenetic Trees
 
 
 
