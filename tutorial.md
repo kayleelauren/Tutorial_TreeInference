@@ -24,7 +24,7 @@ RAxML Homepage: http://sco.h-its.org/exelixis/web/software/raxml/index.html
 RAxML GitHub: https://github.com/stamatak/standard-RAxML  
 RAxML Install following directions on GitHub or the homepage. 
 
-##FastTree
+###FastTree
 
 FastTree Homepage: http://www.microbesonline.org/fasttree/  
 FastTree Install: http://www.microbesonline.org/fasttree/#Install
