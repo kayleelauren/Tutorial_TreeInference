@@ -1,0 +1,6 @@
+OK
+Job Id: 2581843.trestles-fe1.local
+    Job_Name = NGBW-JOB-RAXMLHPC8_XSEDE-256F9BE4F01D4D95AA635F1B8EB9DA23
+    Job_Owner = cipres@trestles-login1.local
+OK
+Nodes:        trestles-1-13

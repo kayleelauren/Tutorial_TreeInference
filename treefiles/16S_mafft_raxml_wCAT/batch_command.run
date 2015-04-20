@@ -1,0 +1,37 @@
+#!/bin/sh
+#PBS -q shared
+#PBS -N NGBW-JOB-RAXMLHPC8_XSEDE-DE44E54AC67142E58DC4886D71194657
+#PBS -l walltime=00:15:00
+#PBS -l epilogue=/projects/ps-ngbt/backend/trestles_workspace/NGBW-JOB-RAXMLHPC8_XSEDE-DE44E54AC67142E58DC4886D71194657/epilogue.sh
+#PBS -o scheduler_stdout.txt
+#PBS -e scheduler_stderr.txt
+#PBS -W umask=0007
+##PBS -V
+
+#PBS -v QOS=2
+
+#PBS -M  terri@sdsc.edu,mmiller@sdsc.edu
+#PBS -m ae
+#PBS -A TG-DEB090011
+
+#PBS -l nodes=1:ppn=8
+cd /projects/ps-ngbt/backend/trestles_workspace/NGBW-JOB-RAXMLHPC8_XSEDE-DE44E54AC67142E58DC4886D71194657
+
+source /etc/profile.d/modules.sh
+
+
+date +'%s %a %b %e %R:%S %Z %Y' > start.txt
+
+curl -k https://www.phylo.org/portal2/taskupdate.action?taskId=651060\&jh=NGBW-JOB-RAXMLHPC8_XSEDE-DE44E54AC67142E58DC4886D71194657\&status=START
+
+export CIPRES_THREADSPP=8
+export CIPRES_NP=1
+
+./batch_command.cmdline 1>stdout.txt 2>stderr.txt
+retval=$?
+
+date +'%s %a %b %e %R:%S %Z %Y' > done.txt
+qstat -f $PBS_JOBID | grep Job
+qstat -f $PBS_JOBID | grep resources
+curl -k https://www.phylo.org/portal2/taskupdate.action?taskId=651060\&jh=NGBW-JOB-RAXMLHPC8_XSEDE-DE44E54AC67142E58DC4886D71194657\&status=DONE
+exit $retval

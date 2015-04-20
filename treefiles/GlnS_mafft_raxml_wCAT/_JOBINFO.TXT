@@ -1,0 +1,14 @@
+Task\ label=GlnS_mafft_raxml_wCAT
+Task\ ID=651068
+Tool=RAXMLHPC8_XSEDE
+created\ on=2015-04-20 09:46:45.0
+JobHandle=NGBW-JOB-RAXMLHPC8_XSEDE-2CE84FD99D8348D1A033BC7FB5218B6D
+resource=trestles
+User\ ID=67533
+User\ Name=jrp355
+email=jrp355@drexel.edu
+
+Output=(all_outputfiles,*,UNKNOWN,UNKNOWN,UNKNOWN)
+ChargeFactor=1.000000
+cores=8
+JOBID=2581844.trestles-fe1.local
