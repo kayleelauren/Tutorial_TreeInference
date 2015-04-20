@@ -500,4 +500,7 @@ We will be using iTOL to view our trees.
 **GlnS_muscle_raxml_wCAT**  
 ![GlnS_muscle_raxml_wCAT](https://github.com/JacobRPrice/Tutorial_TreeInference/blob/master/treeimages/GlnS_muscle_raxml_wCAT.png)  
 
+**what it should look like**  
+![groundtruth](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/treeimages/groundtruth.png)
+
 ___
