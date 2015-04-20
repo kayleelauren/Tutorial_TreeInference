@@ -172,7 +172,7 @@ CIPRES --> https://www.phylo.org/
 **To prepare 16S_muscle_RAxML:**   
 **Description:** 16S_muscle_raxml    
 **Input:** 16S_muscle.fasta     
-**Tool:** RAxML-HPC2 on XSEDE   
+**Tool:** RAxML-HPC2 v.8 on XSEDE   
 **Input Parameters:**   
 For now, keep all of the defaults, with one exception...
 
