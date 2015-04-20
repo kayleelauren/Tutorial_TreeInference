@@ -8,11 +8,46 @@ NOTE: Background and supporting literature available in [LitReview](https://gith
     git clone https://github.com/JacobRPrice/Tutorial_TreeInference.git
 ___
 
-#Building Phylogenetic Trees
+#Building Phylogenies
 
-WHY?
+**Phylogenetic Inference**  
+> In considering the Origin of Species, it is quite conceivable that a naturalist, reflecting on the mutual affinities of organic beings, on their embryological relations, their geographical distribution, geological succession, and other such facts, might come to the conclusion that species had not been independently created, but had descended, like varieties, from other species.  - **Charles Darwin, 1959, The Origin of Species**  
 
-HOW IS IT DONE? 
+**”I think..."**  
+![darwintree](http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2008/04/17/DarwinSketch.article.jpg)  
+
+
+**We’ve come a long way.**
+![dinophylogeny](https://leilabattison.files.wordpress.com/2012/02/dn14392-1_1891.jpg)   
+
+A **phylogeny**, or evolutionary tree, represents the evolutionary relationships among a set of organisms or groups of organisms, called taxa (singular: taxon). The tips of the tree represent groups of descendent taxa (often species) and the nodes on the tree represent the common ancestors of those descendants. Two descendents that split from the same node are called sister groups. In the tree below, species A & B are sister groups — they are each other's closest relatives.  [[source](http://evolution.berkeley.edu/evolibrary/article/phylogenetics_02)]  
+![phy](http://evolution.berkeley.edu/evolibrary/images/phylogenetics/clade.gif)  
+
+####Constructing Phylogenetic Trees [General Concepts]  
+
+#####1) Select taxa/organisms of interest. 
+#####2) Determine characteristics/traits/loci as basis for phylogeny. 
+ Early phylogenies were based on morphology. Now they are based on genetic/molecular data at one or more locus.  
+#####3) Align sequences
+#####4) Create Phylogeny  
+
+######4a) Distance-Matrix Methods  
+Attempts to quantify the “distance” or “difference” between two sequences, two paired/joined sequences and a third un-joined sequence, or two pairs/joins of sequences. Attempts to arrange pairing/joining to minimize differences.  
+
+* Neighbor-joining  
+* Fitch-Margoliash  
+* Including outgroups —> serves as control
+
+######4b) Maximum Parsimony  
+Constructs phylogenetic tree that contains the smallest number of evolutionary events (mutations, etc).  
+**Major Con:** Not statistically consistent. —> [Long Branch Attraction](http://en.wikipedia.org/wiki/Long_branch_attraction) (e.g. as a result of convergent evolution)
+
+######4c) Maximum Likelihood  
+Uses an explicit model of character evolution to determine a given trees likelihood. Algorithm cycles until it’s reached a maximum/convergent value, providing the best tree. 
+
+
+######4d) Bayesian Inference
+Seeks to maximize the posterior probability of the tree being generated using both previous trees and explicit evolution model.
 
 ___
 #Tree Inference Packages
