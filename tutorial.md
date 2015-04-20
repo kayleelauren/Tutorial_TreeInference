@@ -147,10 +147,12 @@ lh<sub>cutoff</sub> the remaining LSR's below that node are omitted
 * The threshold lh<sub>cutoff</sub> for the next iteration is set to the average of #948;. If the search computes an LSR for   which all(t') &#8804; ll(t) and &#948;(all(t'),ll(t)) &#8805; lh<sub>cutoff</sub> it will simply skip the remaining LSRs below  the current node. 
 * Thus, each iteration k of the search algorithm uses a threshold value lh<sub>cutoff</sub> that has been obtained during the  previous iteration k - 1. 
 * This allows to dynamically adapt lh<sub>cutoff</sub> to the specific dataset and to the progress of the search. 
-* The omission of a large amount of unnecessary LSRs that have a high probability not to improve the tree yields substantial   run time improvements and returns equally good trees at the same time (see Table).
+* The omission of a large amount of unnecessary LSRs that have a high probability not to improve the tree yields substantial   run time improvements and returns equally good trees at the same time (see Table below).
 
-![LSR Outline](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/LSRTable.png)
+![LSR Outline](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/LSROutline.png)
+
 ![!LSR Table](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/LSRTable.png)
+
 ##FastTree Algorithm
 
 ###Neighbor Joining with Profiles
