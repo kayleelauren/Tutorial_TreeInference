@@ -287,6 +287,6 @@ We will be using iTOL to view our trees.
 
 ##Comparing The Phylogenetic Trees
 
-
+![s](https://github.com/JacobRPrice/Tutorial_TreeInference/blob/master/treeimages/16S_mafft_FastTree.eps)
 
 ___
