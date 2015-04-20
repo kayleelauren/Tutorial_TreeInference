@@ -250,6 +250,16 @@ ___
 
 #Comparison of RAxML and FastTree
 
+Liu et al (2011)  
+
+In this study, we explore the performance with respect to ML score, running time, and topological accuracy, of FastTree and RAxML on thousands of alignments (based on both simulated and biological nucleotide datasets) with up to 27,634 sequences. 
+
+
+*  We find that when RAxML and FastTree are constrained to the same running time, FastTree produces topologically much more accurate trees in almost all cases.  
+* We also find that when RAxML is allowed to run to completion, it provides an advantage over FastTree in terms of the ML score, but does not produce substantially more accurate tree topologies. 
+*  Interestingly, the relative accuracy of trees computed using FastTree and RAxML depends in part on the accuracy of the sequence alignment and dataset size, so that FastTree can be more accurate than RAxML on large datasets with relatively inaccurate alignments.  
+* Finally, the running times of RAxML and FastTree are dramatically different, so that when run to completion, RAxML can take several orders of magnitude longer than FastTree to complete.  
+*  Thus, our study shows that very large phylogenies can be estimated very quickly using FastTree, with little (and in some cases no) degradation in tree accuracy, as compared to RAxML.
 
 
 ___
