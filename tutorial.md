@@ -261,6 +261,14 @@ In this study, we explore the performance with respect to ML score, running time
 * Finally, the running times of RAxML and FastTree are dramatically different, so that when run to completion, RAxML can take several orders of magnitude longer than FastTree to complete.  
 *  Thus, our study shows that very large phylogenies can be estimated very quickly using FastTree, with little (and in some cases no) degradation in tree accuracy, as compared to RAxML.
 
+![missingbranchrate](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/missingbranchrate.png)  
+
+![runtimes](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/runtimes.png)  
+
+
+
+
+
 
 ___
 #Building Phylogenetic Trees
