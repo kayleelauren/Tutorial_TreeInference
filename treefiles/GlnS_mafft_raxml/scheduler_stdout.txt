@@ -1,0 +1,10 @@
+OK
+Job Id: 2581448.trestles-fe1.local
+    Job_Name = NGBW-JOB-RAXMLHPC8_XSEDE-01B262CC9B554A138071671D3AA9B5F4
+    Job_Owner = cipres@trestles-login2.local
+    resources_used.cput = 00:22:06
+    resources_used.mem = 7388kb
+    resources_used.vmem = 531180kb
+    resources_used.walltime = 00:03:11
+OK
+Nodes:        trestles-12-26

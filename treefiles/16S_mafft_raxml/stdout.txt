@@ -1,0 +1,159 @@
+CIPRES_THREADSPP=8
+CIPRES_NP=1
+running:
+raxmlHPC-PTHREADS -T 8 -n result -s infile.txt -p 12345 -m GTRGAMMA
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+IMPORTANT WARNING: Sequences Haemophilus_influenzae_PittGG_uid58593_1 and Haemophilus_influenzae_PittGG_uid58593_2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences Haemophilus_influenzae_PittGG_uid58593_1 and Haemophilus_influenzae_PittGG_uid58593_3 are exactly identical
+
+
+IMPORTANT WARNING: Sequences Haemophilus_influenzae_PittGG_uid58593_1 and Haemophilus_influenzae_PittGG_uid58593_4 are exactly identical
+
+
+IMPORTANT WARNING: Sequences Haemophilus_influenzae_PittGG_uid58593_1 and Haemophilus_influenzae_PittGG_uid58593_5 are exactly identical
+
+
+IMPORTANT WARNING: Sequences Haemophilus_influenzae_PittGG_uid58593_1 and Haemophilus_influenzae_PittGG_uid58593_6 are exactly identical
+
+
+IMPORTANT WARNING: Sequences Haemophilus_influenzae_Rd_KW20_uid57771_1 and Haemophilus_influenzae_Rd_KW20_uid57771_2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences Haemophilus_influenzae_Rd_KW20_uid57771_1 and Haemophilus_influenzae_Rd_KW20_uid57771_6 are exactly identical
+
+
+IMPORTANT WARNING: Sequences Haemophilus_influenzae_Rd_KW20_uid57771_3 and Haemophilus_influenzae_Rd_KW20_uid57771_4 are exactly identical
+
+
+IMPORTANT WARNING: Sequences Haemophilus_influenzae_Rd_KW20_uid57771_3 and Haemophilus_influenzae_Rd_KW20_uid57771_5 are exactly identical
+
+
+IMPORTANT WARNING: Sequences Haemophilus_influenzae_R2866_uid161923_1 and Haemophilus_influenzae_R2866_uid161923_2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences Haemophilus_influenzae_R2866_uid161923_1 and Haemophilus_influenzae_R2866_uid161923_3 are exactly identical
+
+
+IMPORTANT WARNING: Sequences Haemophilus_influenzae_R2866_uid161923_1 and Haemophilus_influenzae_R2866_uid161923_4 are exactly identical
+
+
+IMPORTANT WARNING: Sequences Haemophilus_influenzae_R2866_uid161923_1 and Haemophilus_influenzae_R2866_uid161923_5 are exactly identical
+
+
+IMPORTANT WARNING: Sequences Haemophilus_influenzae_R2866_uid161923_1 and Haemophilus_influenzae_R2866_uid161923_6 are exactly identical
+
+IMPORTANT WARNING
+Found 14 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file infile.txt.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+This is the RAxML Master Pthread
+
+This is RAxML Worker Pthread Number: 2
+
+This is RAxML Worker Pthread Number: 1
+
+This is RAxML Worker Pthread Number: 3
+
+This is RAxML Worker Pthread Number: 4
+
+This is RAxML Worker Pthread Number: 6
+
+This is RAxML Worker Pthread Number: 7
+
+This is RAxML Worker Pthread Number: 5
+
+
+This is RAxML version 8.1.11 released by Alexandros Stamatakis on December 10 2014.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+
+Alignment has 17 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 3.74%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 17
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC-PTHREADS -T 8 -n result -s infile.txt -p 12345 -m GTRGAMMA 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.260 0.177 0.334 0.229 
+
+Restart estimation at the boundary... 
+Reverting BFGS ... 
+Restart estimation at the boundary... 
+Reverting BFGS ... 
+Restart estimation at the boundary... 
+Reverting BFGS ... 
+
+WARNING the alpha parameter with a value of 13.021555 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+Inference[0]: Time 0.275522 GAMMA-based likelihood -269.493403, best rearrangement setting 10
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Restart estimation at the boundary... 
+Reverting BFGS ... 
+
+WARNING the alpha parameter with a value of 30.136184 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+Inference[0] final GAMMA-based Likelihood: -269.493227 tree written to file /projects/ps-ngbt/backend/trestles_workspace/NGBW-JOB-RAXMLHPC8_XSEDE-1EF87AD376D143E98CE3C136002467CF/RAxML_result.result
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -269.493227 .... 
+
+Final GAMMA-based Score of best tree -269.493227
+
+Program execution info written to /projects/ps-ngbt/backend/trestles_workspace/NGBW-JOB-RAXMLHPC8_XSEDE-1EF87AD376D143E98CE3C136002467CF/RAxML_info.result
+Best-scoring ML tree written to: /projects/ps-ngbt/backend/trestles_workspace/NGBW-JOB-RAXMLHPC8_XSEDE-1EF87AD376D143E98CE3C136002467CF/RAxML_bestTree.result
+
+Overall execution time: 0.425678 secs or 0.000118 hours or 0.000005 days
+
