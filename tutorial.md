@@ -144,7 +144,13 @@ storing a distance matrix.
 ####Distances between Profiles
 * Uses profiles to estimate the average distance between the children of two nodes
 * Profile distance at each position is the average dissimilarity of the characters
-	
+* Profile distance is identical to the average distance if the distances are not corrected for multiple substitutions  
+and if the sequences do not contain gaps
+* For example, if we join two sequences A and B together, then the profile distance
+&#916;(AB,C) = (d<sub>u</sub>(A,C)+d<sub>u</sub>(B,C))/2  
+* But, we do want to correct for multiple substitutions (especially for large sequences which almost certainly contain gaps)
+* FastTree uses the logarithm of averages between the profiles to make this correction	
+
 ####Distances between Internal Nodes
 * Neighbor-Joining operates on distances between internal nodes rather
 than on average distances between the members of subtrees
@@ -157,8 +163,50 @@ and computes the distance between nodes with
 corrected for multiple substitutions and the sequences contain no gaps  
 
 ####Calculating the Neighbor-Joining Criterion
+* Neighbor-Joining selects the join that minimizes the criterion d<sub>u</sub>(i,j) - r(i) - (r,j), where i,j, and k  
+are indices of active nodes that have not been joined, d<sub>u</sub>(i,j) is the distance between nodes i and j, n  
+is the number of active nodes and  
+r(i) = &#931; d<sub>u</sub>(i,k)/(n-2) (where k does not equal i)  
+where r(i) can be thought of as the average "out-distance" of i to other active nodes  
+* Traditional Neighbor-Joining computes all N out-distances before doing any joins, and updates each out-distance  after each join
+* To reduce time complexity, FastTree avoids this work by computing each out-distance as needed by using  
+a "total profile" T which is the average of all active nodes' profiles, as implied by  
+&#931; &#916;(i,k) = n * &#916;(i,T) - &#916;(i,i)
+(&#916;(i,i) is the average distance between children of i, including self-comparisons)
+* FastTree computes the total profile at the beginning of Neighbor-Joining, updates it incrementally, and recomputes  
+it every 200 joins to avoid roundoff error
+* FastTree does not log the correct distances during Neighbor-Joining because this would reduce FastTree's accuracy
 
 ####Selecting the Best Join
+* FastTree uses heuristics to reduce the number of joins considered at each step
+* FastTree uses the "top-hits" heuristic where it records a top-hits list: the nodes that are the closest m neighbors  
+of that node, according to the Neighbor-Joining criterion
+* FastTree estimates these lists for all sequences before doing any joins
+* FasTree restricts the top-hits heuristic to ensure that a sequence's top hits are only inferred from the top hits of  
+a "close enough" neighbor
+* Fast tree maintains these top-hits lists during Neighbor-Joining, and as the algorithm progresses, the top-hits  
+list becomes gradually shorter as joined (inactive) nodes become absent
+* FastTree also remembers the best-known join for each node, and updates the best join whenever it considers a join  that involves that node
+* Based on the best joins and top-hits lists, FastTree can quickly select a join
+
+####Nearest Neighbor Interchanges
+* After FastTree constructs an initial tree with Neighbor-Joining, it uses NNI's to improve the tree topology
+* During each round, FastTree tests and possibly rearranges each split in the tree, and it recomputes the profile of each   internal node
+* FastTree has a fixed number of rounds of NNI's instead of using iteration to ensure fast completion
+* FastTree also visits nodes in postorder to ensure efficiency
+
+####Local Bootstrap
+* To estimate the support for each split, FastTree resamples the alignment's columns with Knuth's 2002  
+random number generator
+* FastTree counts the fraction of resamples that support a split over the two potential NNI's around that node
+* If a resample's minimum evolution criterion gives a tie, then that resample is counted as not supporting the split
+ 
+####Branch Lengths
+Finally, once the topology is complete, FastTree computes branch lengths, with  
+d(AB,CD) = (d(A,C)+(d(A,D)+d(B,C)+d(B,C))/4 - (d(A,B)+d(C,D))/2  
+for internal branches and  
+d(A,BC) = (d(A,B)+d(A,C)-d(B,C))/2  
+for the branch leading to leaf A, where d are log-corrected profile distances
 
 ####A Rough Overview of Fast Tree
 ![Fast Tree Overview](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/FastTreeOverview.38%20PM.png)
