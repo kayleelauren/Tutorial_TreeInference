@@ -171,7 +171,7 @@ ___
 
 ___
 #Building Phylogenetic Trees
-We will be using CIPRES to build trees for the 4 alignments Saeed and Dmitry have created. We will be running this off of your local machine, not Proteus (obviously) so you can clone this repository to your desktop.
+We will be using CIPRES to build trees for the 4 alignments Saeed and Dmitry have created. We will be running this off of your local machine, not Proteus (obviously) so you can [clone](https://github.com/JacobRPrice/Tutorial_TreeInference/blob/master/tutorial.md#tree-inference---raxml-and-fasttree) this repository to your desktop.
 
 CIPRES --> https://www.phylo.org/  
 * How to manage data: http://www.phylo.org/tools/flash/cipresportal2_data_management.htm  
