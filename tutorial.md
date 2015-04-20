@@ -289,14 +289,23 @@ We will be using iTOL to view our trees.
 
 ###Comparing The Phylogenetic Trees
 
-####16  
+####16s  
+**16S_mafft_FastTree**
 ![16S_mafft_FastTree](https://github.com/JacobRPrice/Tutorial_TreeInference/blob/master/treeimages/16S_mafft_FastTree.png)  
+**16S_mafft_raxml**  
 ![16S_mafft_raxml](https://github.com/JacobRPrice/Tutorial_TreeInference/blob/master/treeimages/16S_mafft_raxml.png)  
+**16S_muscle_FastTree**  
 ![16S_muscle_FastTree](https://github.com/JacobRPrice/Tutorial_TreeInference/blob/master/treeimages/16S_muscle_FastTree.png)  
+**16S_muscle_raxml**  
 ![16S_muscle_raxml](https://github.com/JacobRPrice/Tutorial_TreeInference/blob/master/treeimages/16S_muscle_raxml.png)  
+####GlnS  
+**GlnS_mafft_FastTree**  
 ![GlnS_mafft_FastTree](https://github.com/JacobRPrice/Tutorial_TreeInference/blob/master/treeimages/GlnS_mafft_FastTree.png)  
+**GlnS_mafft_raxml**  
 ![GlnS_mafft_raxml](https://github.com/JacobRPrice/Tutorial_TreeInference/blob/master/treeimages/GlnS_mafft_raxml.png)  
+**GlnS_muscle_FastTree**  
 ![GlnS_muscle_FastTree](https://github.com/JacobRPrice/Tutorial_TreeInference/blob/master/treeimages/GlnS_muscle_FastTree.png)  
+**GnlS_muscle_raxml**  
 ![GnlS_muscle_raxml](https://github.com/JacobRPrice/Tutorial_TreeInference/blob/master/treeimages/GnlS_muscle_raxml.png)  
 
 ___
