@@ -116,8 +116,41 @@ ___
 # Tree Inference Algorithms
 
 ##RAxML Algorithm
+By default, the current version of RAxML uses the Rapid Hill Climbing with Lazy Subtree Rearrangement approach to tree inference. 
+This is not the original "full search" algorithm used by the program, but it outputs trees that are virtually as good as the ones
+produces by the full search. It is substantially faster than the full search algorithm.
 
+###Rapid Hill Climbing with Lazy Subtree Rearrangement
 
+####LSR
+* The fundamental mechanism that is used to search the tree space with RAxML is called Lazy Subtree Rearrangement (LSR)
+* An LSR consists of pruning/removing a subtree from the current best tree "t" and then reinserting it into all neighboring   branches up to a certain distance/radius (rearrangement distance) of n nodes from the pruning point
+* For each possible subtree insertion within the rearrangement distance, RAxML evaluates the log likelihood score of the   alternative topology
+* The reason it is called "Lazy" Subtree Rearrangement is because this is done in a lazy way, since only the length of the   three branches adjacent to the insertion point/node will be optimized
+* Thus, an LSR only yields an approximate log likelihood "all(t')" score for each alternative topology t' constructed by an  LSR from t
+* However, this all(t') score can be used to sort the alternative topologies
+
+####What Next?
+* After this fast pre-scoring of a large number of alternative topologies, only a very small fraction of the best-scoring  topologies needs to be optimized more exhaustively to improve the overall tree score
+* One iteration of the RAxML hill-climbing algorithm consists of performing LSR's on all subtrees of a given topology "t"  for a fixed rearrangement distance "n"
+* Thereafter, the branches of the 20 best-scoring trees are thoroughly optimized
+* This procedure of conducting LSR's on all subtrees and then optimizing the 20 best-scoring trees is performed until no  improved tree is encountered
+
+####Main Idea
+* The main idea of the new heuristics is to reduce the number of LSR's performed, which is done by using an empirical
+cutoff-rule that stops the recursive descent of an LSR into deeper branches at a higher rearrangement distance from
+the pruning position if they do not appear to be promising
+* Thus, if the approximate log likelihood all(t') for the current rearrange tree t' is worse than the log likelihood  
+ll(t) of the currently best tree t and if the difference &#948;(all(t')),ll(t)) is larger than a certain threshold  
+lh<sub>cutoff</sub> the remaining LSR's below that node are omitted
+* The threshold lh<sub>cutoff</sub> = &#8734; which means that no cutoffs are made alternative tree topologies t<sub>i</sub>   where all(t<sub>i</sub>) &#8804; ll(t) are stored.
+* The threshold lh<sub>cutoff</sub> for the next iteration is set to the average of #948;. If the search computes an LSR for   which all(t') &#8804; ll(t) and &#948;(all(t'),ll(t)) &#8805; lh<sub>cutoff</sub> it will simply skip the remaining LSRs below  the current node. 
+* Thus, each iteration k of the search algorithm uses a threshold value lh<sub>cutoff</sub> that has been obtained during the  previous iteration k - 1. 
+* This allows to dynamically adapt lh<sub>cutoff</sub> to the specific dataset and to the progress of the search. 
+* The omission of a large amount of unnecessary LSRs that have a high probability not to improve the tree yields substantial   run time improvements and returns equally good trees at the same time (see Table).
+
+[!LSR Outline]
+[!LSR Table]
 ##FastTree Algorithm
 
 ###Neighbor Joining with Profiles
