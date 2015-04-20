@@ -278,9 +278,11 @@ Supported tree formats:
 * Nexus  
 * Phylip  
 * others?  
+
 Pros:  
 * Easy to use  
 * Manual manipulation of alignments is simple  
+
 Cons:  
 * "Outdated" GUI might turn some off
 * Trees are NOT "pretty"
@@ -303,16 +305,26 @@ We will be using iTOL to view our trees.
 
 ####1) Register (I know, I know...)  
 ####2) Select the "Trees and Data" tab  
+
 ![1](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/itol1.png)  
+
 ####3) Create a new workspace  
+
 ![2](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/itol2.png)  
+
 ####4) Select "upload a new tree to this project"   
+
 ![3](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/itol3.png)  
+
 ####5) Choose a tree to upload.    
+
 * Name the tree, otherwise it's difficult to distinguish which is which.   
 * Adding a description can help with clarity as well.    
+
 ![4](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/itol4.png)  
+
 ####6) Add any datasets (metadata) you may have for the tree. **Not discussed here.**  
+
 ![5](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/itol5.png)  
 
 ####7) Manipulate tree in the viewer.   
