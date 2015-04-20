@@ -165,7 +165,7 @@ CIPRES --> https://www.phylo.org/
 * Inside "Task" directory, select create new task.  
 ![createnewtask](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/createnewtask.png)  
 * Give your task a description, select your input files, and select your tools. Then modify your task's parameters.  
-![descriptionetc](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/descriptionetc.png)  
+[descriptionetc](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/descriptionetc.png)  
 
 ####Building Phylogenetic Trees with RAxML (on CIPRES)   
 
