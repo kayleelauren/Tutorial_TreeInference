@@ -1,0 +1,7 @@
+1429029358 Tue Apr 14 09:35:58 PDT 2015
+ExitCode=0
+Job Id: 2639342.tscc-mgr.local
+Resource List: epilogue=/projects/ps-ngbt/backend/tscc_workspace/NGBW-JOB-MUSCLE-A7E93F840B01455E84D7DF625753A2DE/epilogue.sh,neednodes=hotel-node,walltime=03:00:00
+Resources Used: cput=00:00:00,mem=0kb,vmem=0kb,walltime=00:00:05
+Queue Name: hotel
+

@@ -1,0 +1,7 @@
+1429193816 Thu Apr 16 07:16:56 PDT 2015
+ExitCode=0
+Job Id: 2009403.gordon-fe2.local
+Resource List: epilogue=/projects/ps-ngbt/backend/gordon_workspace/NGBW-JOB-MAFFT_TG-2EB7FCC9B38D45C984D5B7E3B42AE379/epilogue.sh,neednodes=gcn-20-84:ppn=16,nodes=1:ppn=16:native,walltime=02:00:00
+Resources Used: cput=00:00:00,mem=0kb,vmem=0kb,walltime=00:00:01
+Queue Name: normal
+

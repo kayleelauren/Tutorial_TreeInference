@@ -1,0 +1,17 @@
+Started Thu Apr 16 07:40:20 2015
+muscle -in infile.fasta -seqtype auto -maxiters 16 -maxmb 30000000 -log logfile.txt -weight1 clustalw -cluster1 upgmb -sueff 0.1 -root1 pseudo -maxtrees 1 -weight2 clustalw -cluster2 upgmb -sueff 0.1 -root2 pseudo -objscore sp -noanchors -out output.fasta 
+
+*** WARNING ***  Invalid character '$' in FASTA sequence data, ignored
+
+*** WARNING ***  Invalid character '$' in FASTA sequence data, ignored
+
+*** WARNING ***  Invalid character '$' in FASTA sequence data, ignored
+
+*** WARNING ***  Invalid character '$' in FASTA sequence data, ignored
+
+*** WARNING ***  Invalid character '$' in FASTA sequence data, ignored
+
+*** WARNING ***  Invalid character '$' in FASTA sequence data, ignored
+
+*** WARNING ***  Invalid character '$' in FASTA sequence data, ignored
+Finished Thu Apr 16 07:40:20 2015

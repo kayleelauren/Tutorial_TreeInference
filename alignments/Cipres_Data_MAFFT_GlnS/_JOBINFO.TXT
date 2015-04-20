@@ -1,0 +1,14 @@
+Task\ label=Haemophilus Influenzae GlnS. MAFFT
+Task\ ID=648833
+Tool=MAFFT_TG
+created\ on=2015-04-16 07:14:30.0
+JobHandle=NGBW-JOB-MAFFT_TG-2EB7FCC9B38D45C984D5B7E3B42AE379
+resource=gordon
+User\ ID=78324
+User\ Name=saeedkeshani
+email=sk3389@drexel.edu
+
+Output=(outputfile,output.mafft,UNKNOWN,UNKNOWN,UNKNOWN),(all_outputfiles,*,UNKNOWN,UNKNOWN,UNKNOWN)
+ChargeFactor=1.000000
+cores=16
+JOBID=2009403.gordon-fe2.local

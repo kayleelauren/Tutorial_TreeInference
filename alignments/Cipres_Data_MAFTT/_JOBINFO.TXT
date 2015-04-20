@@ -1,0 +1,14 @@
+Task\ label=Haemophilus Influenzae 16S
+Task\ ID=647502
+Tool=MAFFT_TG
+created\ on=2015-04-14 09:46:31.0
+JobHandle=NGBW-JOB-MAFFT_TG-5A964DCD04E241EF8B43F6906D0CD0A9
+resource=gordon
+User\ ID=78324
+User\ Name=saeedkeshani
+email=sk3389@drexel.edu
+
+Output=(outputfile,output.mafft,UNKNOWN,UNKNOWN,UNKNOWN),(all_outputfiles,*,UNKNOWN,UNKNOWN,UNKNOWN)
+ChargeFactor=1.000000
+cores=16
+JOBID=2007081.gordon-fe2.local

@@ -1,0 +1,28 @@
+
+MUSCLE v3.7 by Robert C. Edgar
+
+http://www.drive5.com/muscle
+This software is donated to the public domain.
+Please cite: Edgar, R.C. Nucleic Acids Res 32(5), 1792-97.
+
+
+*** WARNING *** Invalid character '$' in FASTA sequence data, ignored
+
+*** WARNING *** Invalid character '$' in FASTA sequence data, ignored
+
+*** WARNING *** Invalid character '$' in FASTA sequence data, ignored
+
+*** WARNING *** Invalid character '$' in FASTA sequence data, ignored
+
+*** WARNING *** Invalid character '$' in FASTA sequence data, ignored
+
+*** WARNING *** Invalid character '$' in FASTA sequence data, ignored
+
+*** WARNING *** Invalid character '$' in FASTA sequence data, ignored
+infile 7 seqs, max length 180, avg  length 180
+00:00:00     25 MB(2%)  Iter   1    3.57%  K-mer dist pass 100:00:00     25 MB(2%)  Iter   1  100.00%  K-mer dist pass 1
+00:00:00     25 MB(2%)  Iter   1    3.57%  K-mer dist pass 200:00:00     25 MB(2%)  Iter   1  100.00%  K-mer dist pass 2
+00:00:00     25 MB(2%)  Iter   1   16.67%  Align node       00:00:00     27 MB(2%)  Iter   1   33.33%  Align node00:00:00     27 MB(2%)  Iter   1   50.00%  Align node00:00:00     27 MB(2%)  Iter   1   66.67%  Align node00:00:00     27 MB(2%)  Iter   1   83.33%  Align node00:00:00     27 MB(2%)  Iter   1  100.00%  Align node00:00:00     27 MB(2%)  Iter   1  100.00%  Align node
+00:00:00     27 MB(2%)  Iter   1   14.29%  Root alignment00:00:00     27 MB(2%)  Iter   1   28.57%  Root alignment00:00:00     27 MB(2%)  Iter   1   42.86%  Root alignment00:00:00     27 MB(2%)  Iter   1   57.14%  Root alignment00:00:00     27 MB(2%)  Iter   1   71.43%  Root alignment00:00:00     27 MB(2%)  Iter   1   85.71%  Root alignment00:00:00     27 MB(2%)  Iter   1  100.00%  Root alignment00:00:00     27 MB(2%)  Iter   1  100.00%  Root alignment
+00:00:00     27 MB(2%)  Iter   2  100.00%  Root alignment
+00:00:00     28 MB(2%)  Iter   3   18.18%  Refine biparts00:00:00     28 MB(2%)  Iter   3   27.27%  Refine biparts00:00:00     28 MB(2%)  Iter   3   36.36%  Refine biparts00:00:00     28 MB(2%)  Iter   3   45.45%  Refine biparts00:00:00     28 MB(2%)  Iter   3   54.55%  Refine biparts00:00:00     28 MB(2%)  Iter   3   63.64%  Refine biparts00:00:00     28 MB(2%)  Iter   3   72.73%  Refine biparts00:00:00     28 MB(2%)  Iter   3   81.82%  Refine biparts00:00:00     28 MB(2%)  Iter   3   90.91%  Refine biparts00:00:00     28 MB(2%)  Iter   3  100.00%  Refine biparts00:00:00     28 MB(2%)  Iter   3  109.09%  Refine biparts00:00:00     28 MB(2%)  Iter   3  100.00%  Refine biparts
