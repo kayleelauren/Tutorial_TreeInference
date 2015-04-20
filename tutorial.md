@@ -281,6 +281,7 @@ We will be using iTOL to view our trees.
 ![4](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/itol4.png)  
 ####6) Add any datasets (metadata) you may have for the tree. **Not discussed here.**  
 ![5](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/itol5.png)  
+
 ####7) Manipulate tree in the viewer.   
 ####8) Export tree for use (.eps is default).   
 
@@ -288,7 +289,7 @@ We will be using iTOL to view our trees.
 
 ###Comparing The Phylogenetic Trees
 
-16
-![s](https://github.com/JacobRPrice/Tutorial_TreeInference/blob/master/treeimages/16S_mafft_FastTree.eps)
+####16  
+![16S_mafft_FastTree](https://github.com/JacobRPrice/Tutorial_TreeInference/blob/master/treeimages/16S_mafft_FastTree.pdf)
 
 ___
