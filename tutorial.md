@@ -235,7 +235,7 @@ m = log2(N) = Log2(20) = 5
 ___
 #Viewing Phylogenetic Trees  
 
-##Seaview  
+###Seaview  
 Seaview Homepage: http://doua.prabi.fr/software/seaview  
 Seaview Help Page: http://doua.prabi.fr/software/seaview_data/seaview  
 Supported tree formats:  
@@ -254,7 +254,7 @@ Cons:
 ![seaviewprotein](https://modernmodelorganism.files.wordpress.com/2011/02/nogaps.png)
 ![SeaView](http://doua.prabi.fr/binaries/seaview-tree)
 
-##Interactive Tree of Life  
+###Interactive Tree of Life  
 iTOL Home Page: http://itol.embl.de/  
 iTOL Help Pages: http://itol.embl.de/help/help.shtml  
 Supported tree formats: 
@@ -268,25 +268,27 @@ Supported tree formats:
 
 We will be using iTOL to view our trees. 
 
-1) Register (I know, I know...)  
-2) Select the "Trees and Data" tab  
+####1) Register (I know, I know...)  
+####2) Select the "Trees and Data" tab  
 ![1](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/itol1.png)  
-3) Create a new workspace  
+####3) Create a new workspace  
 ![2](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/itol2.png)  
-4) Select "upload a new tree to this project"   
+####4) Select "upload a new tree to this project"   
 ![3](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/itol3.png)  
-5) Choose a tree to upload.    
+####5) Choose a tree to upload.    
 * Name the tree, otherwise it's difficult to distinguish which is which.   
 * Adding a description can help with clarity as well.    
 ![4](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/itol4.png)  
-6) Add any datasets (metadata) you may have for the tree. **Not discussed here.**  
+####6) Add any datasets (metadata) you may have for the tree. **Not discussed here.**  
 ![5](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/itol5.png)  
+####7) Manipulate tree in the viewer.   
+####8) Export tree for use (.eps is default).   
 
 
 
+###Comparing The Phylogenetic Trees
 
-##Comparing The Phylogenetic Trees
-
+16
 ![s](https://github.com/JacobRPrice/Tutorial_TreeInference/blob/master/treeimages/16S_mafft_FastTree.eps)
 
 ___
