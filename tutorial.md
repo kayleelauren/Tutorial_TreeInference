@@ -297,8 +297,6 @@ Supported tree formats:
 * Nexus  
 * PhyloXML    
 
-![iTOL](http://itol.embl.de/img/head_fra.jpg)
-
 ![iTOLexample](http://itol.embl.de/img/itol.jpg)
 
 We will be using iTOL to view our trees. 
