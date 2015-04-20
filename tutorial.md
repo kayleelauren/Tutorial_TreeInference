@@ -174,11 +174,12 @@ CIPRES --> https://www.phylo.org/
 **Input:** 16S_muscle.fasta     
 **Tool:** RAxML-HPC2 on XSEDE   
 **Input Parameters:**   
-Don't change anything --> keep all of the defaults. 
+For now, keep all of the defaults, with one exception...
 
-From the manual:   
 >Warning: It is not a good idea to use the CAT approximation of rate heterogeneity on datasets
-with less than 50 taxa. 
+with less than 50 taxa. [From the manual]  
+
+Click "Advanced Parameters" to reveal more options. Scroll to "Nucleic Acid Options" and select GTRGAMMA (generalized time-reversable+ optimization of substitution rates+ GAMMA model of rate heterogeneity). 
 
 * Select "Save" to save the task to your task list.  
 
