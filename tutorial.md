@@ -149,8 +149,8 @@ lh<sub>cutoff</sub> the remaining LSR's below that node are omitted
 * This allows to dynamically adapt lh<sub>cutoff</sub> to the specific dataset and to the progress of the search. 
 * The omission of a large amount of unnecessary LSRs that have a high probability not to improve the tree yields substantial   run time improvements and returns equally good trees at the same time (see Table).
 
-[!LSR Outline]
-[!LSR Table]
+![LSR Outline](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/LSRTable.png)
+![!LSR Table](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/images/LSRTable.png)
 ##FastTree Algorithm
 
 ###Neighbor Joining with Profiles
