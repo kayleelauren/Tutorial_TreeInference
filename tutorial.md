@@ -18,13 +18,13 @@ ___
 #Tree Inference Packages
 There are at least [392](http://evolution.genetics.washington.edu/phylip/software.html) tree building packages available to researchers. Two commonly utilized packages are RAxML and FastTree. 
 
-##RAxML: Randomized Axelerated Maximum Likelyhood
+####RAxML: Randomized Axelerated Maximum Likelyhood
 
 RAxML Homepage: http://sco.h-its.org/exelixis/web/software/raxml/index.html  
 RAxML GitHub: https://github.com/stamatak/standard-RAxML  
 RAxML Install following directions on GitHub or the homepage. 
 
-###FastTree
+####FastTree
 
 FastTree Homepage: http://www.microbesonline.org/fasttree/  
 FastTree Install: http://www.microbesonline.org/fasttree/#Install
@@ -57,7 +57,7 @@ install multi-thread version to use multiple cores
 
 ![Good news everyone!](http://magellanverse.com/images/goodnewseveryone.png)
 
-##QIIME  
+####QIIME  
 QIIME has a [function](http://qiime.org/1.3.0/scripts/make_phylogeny.html) that makes it easy to streamline the tree building process.  It has options for both RAxML and FastTree methods.  
 
     make_phylogeny.py [options]  
@@ -74,7 +74,7 @@ QIIME has a [function](http://qiime.org/1.3.0/scripts/make_phylogeny.html) that 
     -r, --root_method  
     Method for choosing root of phylo tree Valid choices are: midpoint, tree_method_default [default: tree_method_default]  
 
-##CIPRES
+####CIPRES
 CIPRES is another option. It offers a [web-based interface](https://www.phylo.org/) that allows users to avoid command line/terminal prompts.  Like QIIME, users are able to carry out tree building using [RAxML or FastTree](https://www.phylo.org/portal2/tools.action), amongst other methods. 
 
 ___
