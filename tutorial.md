@@ -271,7 +271,7 @@ Less accurate with highly accurate alignments
 ###Evidence
 In a study performed by the Department of Computer Science and Section of Integrative Biology at the University of Texas at Austin, RAxML, RAxML-Limited (time-constrained), and FastTree were compared on 1800 1000-taxon alignments. For each dataset, six alignments were produced: the true alignment, and using MAFFT, SATé, ClustalW, QuickTree, and PartTree, each in their default settings, to estimate alignments. For each of the 1800 resulting alignments, RAxML, FastTree, and RAxML-Limited were used to estimated ML trees. Each estimated tree was compared to the true tree, with zero-event edges contracted (potentially inferable model trees). Topological accuracy was measured using the missing branch rate, which is the proportion of branches present in the PIMT but missing in the estimated tree.
 
-Liu et al (2011)  
+[Liu et al (2011)](https://github.com/JacobRPrice/Tutorial_TreeInference/blob/master/LitReview/RAxML-FastTreeComparison.pdf)  
 
 In this study, we explore the performance with respect to ML score, running time, and topological accuracy, of FastTree and RAxML on thousands of alignments (based on both simulated and biological nucleotide datasets) with up to 27,634 sequences. 
 
