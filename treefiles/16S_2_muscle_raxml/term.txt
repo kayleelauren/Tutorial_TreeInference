@@ -1,0 +1,7 @@
+1429795593 Thu Apr 23 06:26:33 PDT 2015
+ExitCode=0
+Job Id: 2583678.trestles-fe1.local
+Resource List: epilogue=/projects/ps-ngbt/backend/trestles_workspace/NGBW-JOB-RAXMLHPC8_XSEDE-D280D49047FD4F72A277E18F2E165B7E/epilogue.sh,neednodes=trestles-1-11:ppn=8,nodes=1:ppn=8,walltime=00:15:00
+Resources Used: cput=00:00:01,mem=7896kb,vmem=533472kb,walltime=00:00:05
+Queue Name: shared
+

@@ -1,0 +1,30 @@
+FastTree Version 2.1.7 SSE3, OpenMP (2 threads)
+Alignment: infile
+Amino acid distances: BLOSUM45 Joins: balanced Support: SH-like 1000
+Search: Normal +NNI (10 rounds) +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 5.00*sqrtN close=0.75 refresh=0.80
+ML Model: Jones-Taylor-Thorton, CAT approximation with 20 rate categories
+WARNING! 100.0% NUCLEOTIDE CHARACTERS -- IS THIS REALLY A PROTEIN ALIGNMENT?
+Initial topology in 0.05 seconds
+Refining topology: 10 rounds ME-NNIs, 2 rounds ME-SPRs, 9 rounds ML-NNIs
+      0.22 seconds: ME NNI round 4 of 10, 1 of 19 splits
+      0.40 seconds: ME NNI round 7 of 10, 1 of 19 splits
+Total branch-length 0.979 after 0.41 sec
+      0.67 seconds: ML NNI round 1 of 9, 1 of 19 splits
+ML-NNI round 1: LogLk = -8847.509 NNIs 2 max delta 0.38 Time 1.23
+      1.24 seconds: Site likelihoods with rate category 1 of 20
+      1.37 seconds: Site likelihoods with rate category 6 of 20
+      1.49 seconds: Site likelihoods with rate category 11 of 20
+      1.61 seconds: Site likelihoods with rate category 16 of 20
+Switched to using 20 rate categories (CAT approximation)
+Rate categories were divided by 0.699 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+Use -gamma for approximate but comparable Gamma(20) log-likelihoods
+      1.76 seconds: ML NNI round 2 of 9, 1 of 19 splits
+ML-NNI round 2: LogLk = -8603.509 NNIs 0 max delta 0.00 Time 2.31
+Turning off heuristics for final round of ML NNIs (converged)
+      2.31 seconds: ML NNI round 3 of 9, 1 of 19 splits
+ML-NNI round 3: LogLk = -8603.508 NNIs 0 max delta 0.00 Time 2.85 (final)
+      2.85 seconds: ML Lengths 1 of 19 splits
+Optimize all lengths: LogLk = -8603.507 Time 3.14
+Total time: 3.78 seconds Unique: 21/42 Bad splits: 0/18

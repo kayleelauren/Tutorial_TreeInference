@@ -1,0 +1,1 @@
+raxmlHPC-PTHREADS   -n result  -s infile.txt    -p 12345 -m GTRGAMMA  

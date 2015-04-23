@@ -1,0 +1,6 @@
+OK
+Job Id: 2583645.trestles-fe1.local
+    Job_Name = NGBW-JOB-FASTTREE_XSEDE-0237B94ED7E44888AA898E598778AA7D
+    Job_Owner = cipres@trestles-login2.local
+OK
+Nodes:        trestles-8-24
