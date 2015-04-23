@@ -461,7 +461,7 @@ We will be using iTOL to view our trees.
 
 ####16s  
 
-**16S_mafft_FastTree**
+**16S_mafft_FastTree**  
 ![16S_mafft_FastTree](https://github.com/JacobRPrice/Tutorial_TreeInference/blob/master/treeimages/16S_2_mafft_FastTree.png)  
 
 **16S_muscle_FastTree**  
