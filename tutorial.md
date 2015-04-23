@@ -468,10 +468,10 @@ We will be using iTOL to view our trees.
 ![16S_muscle_FastTree](https://github.com/JacobRPrice/Tutorial_TreeInference/blob/master/treeimages/16S_2_muscle_FastTree.png)  
 
 **16S_mafft_raxml**  
-![16S_mafft_raxml](https://github.com/JacobRPrice/Tutorial_TreeInference/blob/master/treeimages/16S_mafft_2_raxml.png)  
+![16S_mafft_raxml](https://github.com/JacobRPrice/Tutorial_TreeInference/blob/master/treeimages/16S_2_mafft_raxml.png)  
 
 **16S_muscle_raxml**  
-![16S_muscle_raxml](https://github.com/JacobRPrice/Tutorial_TreeInference/blob/master/treeimages/16S_muscle_2_raxml.png)  
+![16S_muscle_raxml](https://github.com/JacobRPrice/Tutorial_TreeInference/blob/master/treeimages/16S_2_muscle_raxml.png)  
 
 ####16s - Ignoring Branch Lengths  
 
@@ -482,13 +482,13 @@ We will be using iTOL to view our trees.
 ![16S_muscle_FastTree](https://github.com/JacobRPrice/Tutorial_TreeInference/blob/master/treeimages/16S_2_muscle_FastTree2.png)  
 
 **16S_mafft_raxml**  
-![16S_mafft_raxml](https://github.com/JacobRPrice/Tutorial_TreeInference/blob/master/treeimages/16S_mafft_2_raxml2.png)  
+![16S_mafft_raxml](https://github.com/JacobRPrice/Tutorial_TreeInference/blob/master/treeimages/16S_2_mafft_raxml2.png)  
 
 **16S_muscle_raxml**  
-![16S_muscle_raxml](https://github.com/JacobRPrice/Tutorial_TreeInference/blob/master/treeimages/16S_muscle_2_raxml2.png)  
+![16S_muscle_raxml](https://github.com/JacobRPrice/Tutorial_TreeInference/blob/master/treeimages/16S_2_muscle_raxml2.png)  
 
 **what it should look like**    
-![groundtruth](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/treeimages/groundtruth2.png)  
+![groundtruth](https://raw.githubusercontent.com/JacobRPrice/Tutorial_TreeInference/master/treeimages/groundtruth.png)  
 
 
 ####GlnS  
