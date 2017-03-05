@@ -1,0 +1,71 @@
+
+##### atgcfreq = 1.000000
+nseq =  20
+distance =  local
+iterate =  16
+cycle =  1
+nthread = 8
+lastonce = 0
+generating a scoring matrix for nucleotide (dist=200) ... done
+done
+done
+scoremtx = -1
+    0 / 20 (by thread   0)     1 / 20 (by thread   1)     2 / 20 (by thread   0)     3 / 20 (by thread   5)     4 / 20 (by thread   5)     5 / 20 (by thread   0)     6 / 20 (by thread   1)     7 / 20 (by thread   6)     8 / 20 (by thread   4)     9 / 20 (by thread   2)    10 / 20 (by thread   3)    11 / 20 (by thread   7)    12 / 20 (by thread   7)    13 / 20 (by thread   3)    14 / 20 (by thread   2)    15 / 20 (by thread   4)    16 / 20 (by thread   2)    17 / 20 (by thread   1)    18 / 20 (by thread   0) 
+
+##### writing hat3
+pairlocalalign (nuc) Version 7.187 alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+8 thread(s)
+nthread = 8
+blosum 62 / kimura 200
+sueff_global = 0.100000
+Loading 'hat3' ... 
+done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+done
+done
+scoremtx = -1
+Gap Penalty = -1.53, +0.00, +0.00
+Loading 'hat2' ... done.
+Constructing a UPGMA tree ... 
+    0 / 20   10 / 20
+done.
+
+Progressive alignment ... 
+STEP     1 /19 (thread    1) cSTEP     6 /19 (thread    5) cSTEP     8 /19 (thread    6) cSTEP     9 /19 (thread    5) STEP     7 /19 (thread    7) ccSTEP    10 /19 (thread    1) cSTEP     2 /19 (thread    0) cSTEP    11 /19 (thread    6) cSTEP    12 /19 (thread    5) cSTEP    13 /19 (thread    1) cSTEP    16 /19 (thread    7) cSTEP     3 /19 (thread    2) cSTEP    14 /19 (thread    6) cSTEP     4 /19 (thread    3) cSTEP     5 /19 (thread    4) cSTEP    15 /19 (thread    5) c
+Reallocating (by thread 0) ..done. *alloclen = 1361
+STEP    17 /19 (thread    0) cSTEP    18 /19 (thread    1) cSTEP    19 /19 (thread    7) c
+done.
+tbfast (nuc) Version 7.187 alg=A, model=DNA200 (2), 1.53 (4.59), 0.00 (0.00), noshift, amax=0.0
+8 thread(s)
+nthread = 8
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+done
+done
+scoremtx = -1
+
+    0 / 20   10 / 20
+Segment   1/  1    1- 188
+001-0000-1 (thread    4) identical     001-0000-0 (thread    6) identical     001-0000-0 (thread    3) identical     001-0000-1 (thread    7) identical     001-0000-0 (thread    8) identical     001-0000-1 (thread    5) identical     001-0000-1 (thread    2) identical     001-0007-0 (thread    1) identical     001-0008-1 (thread    8) identical     001-0009-0 (thread    4) identical     001-0010-1 (thread    3) identical     001-0011-0 (thread    5) identical     001-0012-1 (thread    6) identical     001-0013-0 (thread    7) identical     001-0014-0 (thread    2) identical     001-0015-1 (thread    1) identical     001-0016-0 (thread    8) identical     001-0017-1 (thread    4) identical     001-0018-0 (thread    3) identical     001-0019-1 (thread    5) identical     001-0020-1 (thread    7) identical     001-0021-0 (thread    6) identical     001-0022-0 (thread    2) identical     001-0023-1 (thread    1) identical     001-0024-1 (thread    4) identical     001-0025-1 (thread    5) identical     001-0025-0 (thread    8) identical     001-0027-0 (thread    3) identical     001-0028-0 (thread    7) identical     001-0029-1 (thread    6) identical     001-0030-0 (thread    2) identical     001-0031-1 (thread    1) identical     001-0032-0 (thread    4) identical     001-0033-1 (thread    7) identical     001-0033-1 (thread    5) identical     001-0034-1 (thread    3) identical     001-0033-0 (thread    8) identical     
+Converged.
+done
+dvtditr (nuc) Version 7.187 alg=A, model=DNA200 (2), 1.53 (4.59), 0.00 (0.00), noshift, amax=0.0
+8 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --legacygappenalty option.
+

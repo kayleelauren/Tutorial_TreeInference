@@ -1,0 +1,14 @@
+Task\ label=16S_muscle_raxml_wCAT2
+Task\ ID=651100
+Tool=RAXMLHPC8_XSEDE
+created\ on=2015-04-20 10:26:12.0
+JobHandle=NGBW-JOB-RAXMLHPC8_XSEDE-9C38250A099F4F478C2C8E2549ED37B1
+resource=trestles
+User\ ID=67533
+User\ Name=jrp355
+email=jrp355@drexel.edu
+
+Output=(all_outputfiles,*,UNKNOWN,UNKNOWN,UNKNOWN)
+ChargeFactor=1.000000
+cores=8
+JOBID=2581872.trestles-fe1.local

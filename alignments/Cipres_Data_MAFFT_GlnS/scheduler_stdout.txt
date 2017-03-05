@@ -1,0 +1,5 @@
+OK
+Job Id: 2009403.gordon-fe2.local
+    Job_Name = NGBW-JOB-MAFFT_TG-2EB7FCC9B38D45C984D5B7E3B42AE379
+    Job_Owner = cipres@gordon-ln1.local
+OK

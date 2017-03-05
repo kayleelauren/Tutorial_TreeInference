@@ -1,0 +1,4 @@
+CIPRES_THREADSPP=8
+CIPRES_NP=1
+running:
+mafft --progress /projects/ps-ngbt/backend/gordon_workspace/NGBW-JOB-MAFFT_TG-2EB7FCC9B38D45C984D5B7E3B42AE379/progress.mafft --thread 8 --inputorder --ep 0.0 --auto input.fasta

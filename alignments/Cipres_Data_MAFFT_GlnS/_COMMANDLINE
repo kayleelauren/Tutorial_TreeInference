@@ -1,0 +1,1 @@
+mafft68 --thread 8 --inputorder  --ep 0.0 --auto             input.fasta > output.mafft

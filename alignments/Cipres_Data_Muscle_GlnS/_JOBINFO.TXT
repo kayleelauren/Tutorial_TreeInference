@@ -1,0 +1,14 @@
+Task\ label=Haemophilus Influenzae GlnS. Muscle
+Task\ ID=648826
+Tool=MUSCLE
+created\ on=2015-04-16 07:12:15.0
+JobHandle=NGBW-JOB-MUSCLE-74B3090366AA4F6FA6BC5C5E8E3F5FAF
+resource=TSCC
+User\ ID=78324
+User\ Name=saeedkeshani
+email=sk3389@drexel.edu
+
+Output=(logfileout,logfile.txt,UNKNOWN,UNKNOWN,UNKNOWN),(all_txt,*.txt,UNKNOWN,UNKNOWN,UNKNOWN),(fasta_output,*.fasta,UNKNOWN,UNKNOWN,UNKNOWN),(jobinfo,*.TXT,UNKNOWN,UNKNOWN,UNKNOWN)
+ChargeFactor=1.000000
+cores=1
+JOBID=2645297.tscc-mgr.local

@@ -1,0 +1,5 @@
+qsub output is: 2007081.gordon-fe2.local
+
+======================================================================
+JOBID is 2007081.gordon-fe2.local
+ran gateway_submit_attributes -gateway_user 'sk3389@drexel.edu' -submit_time '2015-04-14 09:47:21 -07:00' -jobid '2007081.gordon-fe2.local'

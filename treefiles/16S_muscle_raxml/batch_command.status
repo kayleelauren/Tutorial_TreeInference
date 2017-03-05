@@ -1,0 +1,5 @@
+qsub output is: 2581449.trestles-fe1.local
+
+======================================================================
+JOBID is 2581449.trestles-fe1.local
+ran gateway_submit_attributes -gateway_user 'jrp355@drexel.edu' -submit_time '2015-04-19 17:32:51 -07:00' -jobid '2581449.trestles-fe1.local'
